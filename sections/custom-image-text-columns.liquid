@@ -1,0 +1,77 @@
+{% stylesheet %}
+.custom-image-text-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.custom-image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+}
+
+.page-width {
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.custom-image-text img {
+    max-width: 70%;
+    border-radius: 50%;
+    border: 1.5px solid #ff0000; /* Updated border styling */
+    aspect-ratio: 1;
+}
+
+.custom-image-text .text {
+    margin-top: 10px;
+}
+{% endstylesheet %}
+
+<div class="page-width">
+    <div class="custom-image-text-wrapper">
+        {% for block in section.blocks %}
+            <div class="custom-image-text">
+                <img src="{{ block.settings.image | img_url: 'master' }}" alt="Image">
+                <div class="text">{{ block.settings.text }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Image Text Columns",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image Text Columns"
+    }
+  ]
+}
+{% endschema %}

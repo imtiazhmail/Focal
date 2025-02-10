@@ -1,0 +1,238 @@
+{% stylesheet %}
+
+.stacked-slider-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+.stacked-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity {{ section.settings.scroll_speed }}ms ease, transform {{ section.settings.scroll_speed }}ms ease;
+  opacity: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.slider-slide.previous {
+  transform: translateY(-10%);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.slider-slide.next {
+  transform: translateY(10%);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.slider-navigation {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-dot {
+  width: 12px;
+  height: 12px;
+  background-color: {{ section.settings.dot_color }};
+  border-radius: 50%;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-dot.active {
+  background-color: {{ section.settings.active_dot_color }};
+  transform: scale(1.2);
+}
+
+.nav-dot:hover {
+  background-color: {{ section.settings.active_dot_color }};
+  transform: scale(1.4);
+}
+
+.transparent-header {
+  background-color: transparent !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+{% endstylesheet %}
+
+<div class="stacked-slider-wrapper">
+  <div class="stacked-slider">
+    {% for block in section.blocks %}
+      <div class="slider-slide" data-slide="{{ forloop.index }}">
+        <a href="{{ block.settings.slide_link }}">
+          <picture>
+            <!-- Mobile Image -->
+            <source media="(max-width: 767px)" srcset="{{ block.settings.mobile_image | img_url: 'master' }}">
+            <!-- Desktop Image -->
+            <source media="(min-width: 768px)" srcset="{{ block.settings.desktop_image | img_url: 'master' }}">
+            <!-- Fallback image -->
+            <img src="{{ block.settings.desktop_image | img_url: 'master' }}" alt="Slide Image">
+          </picture>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="slider-navigation">
+    {% for block in section.blocks %}
+      <span class="nav-dot" data-slide="{{ forloop.index }}"></span>
+    {% endfor %}
+  </div>
+</div>
+
+{% javascript %}
+document.addEventListener('DOMContentLoaded', function() {
+  let currentIndex = 0;
+  const slides = document.querySelectorAll('.slider-slide');
+  const dots = document.querySelectorAll('.nav-dot');
+  const scrollSpeed = {{ section.settings.scroll_speed }};
+
+  function updateSlider() {
+    slides.forEach((slide, index) => {
+      slide.classList.remove('active', 'previous', 'next');
+      if (index === currentIndex) {
+        slide.classList.add('active');
+      } else if (index === currentIndex - 1) {
+        slide.classList.add('previous');
+      } else if (index === currentIndex + 1) {
+        slide.classList.add('next');
+      }
+    });
+
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[currentIndex].classList.add('active');
+  }
+
+  function nextSlide() {
+    if (currentIndex < slides.length - 1) {
+      currentIndex++;
+      updateSlider();
+    }
+  }
+
+  function prevSlide() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowUp') {
+      prevSlide();
+    } else if (e.key === 'ArrowDown') {
+      nextSlide();
+    }
+  });
+
+  window.addEventListener('wheel', function(e) {
+    if (e.deltaY > 0) {
+      nextSlide();
+    } else if (e.deltaY < 0) {
+      prevSlide();
+    }
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      currentIndex = index;
+      updateSlider();
+    });
+  });
+
+  updateSlider();
+});
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Stacked Slider",
+  "settings": [
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll Speed (ms)",
+      "default": 500,
+      "min": 100,
+      "max": 2000,
+      "step": 100
+    },
+    {
+      "type": "color",
+      "id": "dot_color",
+      "label": "Dot Color",
+      "default": "#ccc"
+    },
+    {
+      "type": "color",
+      "id": "active_dot_color",
+      "label": "Active Dot Color",
+      "default": "#333"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "desktop_image",
+          "label": "Desktop Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile Image"
+        },
+        {
+          "type": "text",
+          "id": "slide_link",
+          "label": "Slide Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stacked Slider"
+    }
+  ]
+}
+{% endschema %}

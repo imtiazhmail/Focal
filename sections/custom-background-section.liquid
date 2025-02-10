@@ -1,0 +1,117 @@
+{% comment %}
+  Section with customizable background and content, including support for Shopify Forms app block
+{% endcomment %}
+
+{% schema %}
+{
+  "name": "Custom Background Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "text",
+      "id": "section_height",
+      "label": "Section Height (e.g., 400px, 100vh)",
+      "default": "400px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_content",
+          "label": "Text Content"
+        },
+        {
+          "type": "textarea",
+          "id": "html_content",
+          "label": "HTML Content"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "shopify_forms",
+      "name": "Shopify Form Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "form_id",
+          "label": "Form ID",
+          "default": "default"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Background Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<div
+  style="
+    background-image: url({{ section.settings.background_image | img_url: 'master' }});
+    background-color: {{ section.settings.background_color }};
+    background-size: cover;
+    background-position: center;
+    height: {{ section.settings.section_height }};
+  "
+>
+  <div class="custom-section-content">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'text' %}
+          <div class="text-block">
+            <p>{{ block.settings.text_content }}</p>
+            {{ block.settings.html_content | escape }}
+          </div>
+        {% when 'image' %}
+          <div class="image-block">
+            <img src="{{ block.settings.image | img_url: 'medium' }}" alt="">
+          </div>
+        {% when 'shopify_forms' %}
+          <div class="shopify-form-block">
+            {% render 'shopify://apps/shopify-forms/blocks/form/default', form_id: block.settings.form_id %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .custom-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .text-block, .image-block, .shopify-form-block {
+    margin: 10px;
+  }
+</style>

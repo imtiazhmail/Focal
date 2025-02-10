@@ -1,0 +1,140 @@
+<style>
+  .flex{
+    display: flex;
+  }
+  .col{
+    width: 50%;
+  }
+  .col a{
+    position: relative;
+    display: block;
+  }
+  .col img{
+    width: 100%;
+  }
+  .col span{
+    z-index: 1;
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    right: auto;
+    bottom: auto;
+    transform: translate(calc((-1) * var(--left)), calc((-1) * var(--top)));
+    white-space: nowrap;
+    color: #fff;
+    font-weight: 600;
+  }
+</style>
+<div class="flex">
+  <div class="col">
+    <div>
+      <a href="{{ section.settings.first-url }}">
+        <img src="{{ section.settings.first-img | img_url: "master" }}">
+        <span style="--left: {{ section.settings.horizontal1 }}%; --top: {{ section.settings.vertical1 }}%;">
+          {{- section.settings['first-text'] -}}
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="col">
+    <div>
+      <a href="{{ section.settings.second-url }}">
+        <img src="{{ section.settings.second-img | img_url: "master"}}">
+        <span style="--left: {{ section.settings.horizontal2 }}%; --top: {{ section.settings.vertical2 }}%;">
+          {{ section.settings['second-text'] -}}
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "First Banner Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "first-img",
+      "label": "Choose First Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "first-text",
+      "label": "Enter First Banner Text"
+    },
+     {
+      "type": "range",
+      "id": "horizontal1",
+      "label": "Align Horizontally",
+       "min": 0,
+       "max": 100,
+       "step": 10,
+       "unit": "%",
+       "default": 50
+    },
+     {
+      "type": "range",
+      "id": "vertical1",
+      "label": "Align Vertically",
+       "min": 0,
+       "max": 100,
+       "step": 10,
+       "unit": "%",
+       "default": 50
+    },
+    {
+      "type": "url",
+      "id": "first-url",
+      "label": "Choose/Enter Collection Link"
+    },
+    {
+      "type": "header",
+      "content": "Second Banner Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "second-img",
+      "label": "Choose Second Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "second-text",
+      "label": "Enter second Banner Text"
+    },
+    {
+      "type": "range",
+      "id": "horizontal2",
+      "label": "Align Horizontally",
+       "min": 0,
+       "max": 100,
+       "step": 10,
+       "unit": "%",
+       "default": 50
+    },
+     {
+      "type": "range",
+      "id": "vertical2",
+      "label": "Align Vertically",
+       "min": 0,
+       "max": 100,
+       "step": 10,
+       "unit": "%",
+       "default": 50
+    },
+    {
+      "type": "url",
+      "id": "second-url",
+      "label": "Choose/Enter Collection Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Banner Section"
+    }
+  ]
+}
+{% endschema %}

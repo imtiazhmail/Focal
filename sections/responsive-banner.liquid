@@ -1,0 +1,150 @@
+<style>
+  .banner-section {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.banner-section__heading {
+  text-transform: uppercase;
+  font-size: clamp(1.2rem, calc(4vw + 0.5rem), 2rem);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.banner-section__subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: inline-flex;
+  gap: 10px; /* Adds spacing between banners */
+}
+
+.banner {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensures images do not exceed the width of the container */
+  display: block;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .banner--1-col {
+    width: 100%; /* 1 column: full width */
+  }
+
+  .banner--2-col {
+    width: calc(50% - 10px); /* 2 columns: 50% width with spacing */
+  }
+
+  .banner--3-col {
+    width: calc(33.33% - 10px); /* 3 columns: 33.33% width with spacing */
+  }
+    .banner img {
+    max-height: 650px; /* Set max height for images on large screens */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+  }
+}
+
+</style>
+
+<section class="banner-section">
+  <div class="banner-section__heading">
+    {{ section.settings.heading }}
+  </div>
+  <div class="banner-section__subtitle">
+    {{ section.settings.subtitle }}
+  </div>
+
+  <div class="banners">
+    {% for banner in section.blocks %}
+      <div class="banner banner--{{ section.settings.columns }}">
+        <a href="{{ banner.settings.url }}">
+          <img src="{{ banner.settings.image | img_url: 'master' }}" alt="{{ banner.settings.alt_text }}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Responsive Banners",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Our Featured Collections"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Discover our exclusive range of collections."
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "Number of Banners on Desktop",
+      "options": [
+        {
+          "value": "1-col",
+          "label": "1 Banner"
+        },
+        {
+          "value": "2-col",
+          "label": "2 Banners"
+        },
+        {
+          "value": "3-col",
+          "label": "3 Banners"
+        }
+      ],
+      "default": "1-col"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Banner Image"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Banner URL"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Image Alt Text",
+          "default": "Banner image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Responsive Banners"
+    }
+  ]
+}
+{% endschema %}

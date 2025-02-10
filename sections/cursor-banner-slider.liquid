@@ -1,0 +1,184 @@
+<!-- cursor-banner-slider.liquid -->
+<section class="cursor-banner-slider-{{ section.id }}" data-section-id="{{ section.id }}">
+  <div class="slider-container">
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+        <div class="slider-slide" data-url="{{ block.settings.slide_link }}">
+          <!-- Check if image exists for this block -->
+          {% if block.settings.slide_image %}
+            <img src="{{ block.settings.slide_image | img_url: '2048x2048' }}" alt="{{ block.settings.alt_text }}" class="slide-img" />
+          {% else %}
+            <p>No image for this block</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+      <div class="slider-nav">
+        {% for block in section.blocks %}
+          <div class="slider-dot" data-slide="{{ forloop.index0 }}">
+            {% if block.settings.slide_thumbnail %}
+              <img src="{{ block.settings.slide_thumbnail | img_url: '100x100' }}" alt="{{ block.settings.alt_text }}" class="dot-thumbnail" />
+            {% else %}
+              <p>No thumbnail for this block</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No slides have been added yet. Please add slides in the theme editor.</p>
+    {% endif %}
+  </div>
+
+  <style>
+    .cursor-banner-slider-{{ section.id }} {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-container {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      position: relative;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-slide {
+      flex: 1;
+      transition: opacity 0.5s ease-in-out;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-slide.active {
+      opacity: 1;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-slide img {
+      object-fit: cover;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-nav {
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-dot {
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 50%;
+      opacity: 0.6;
+      transition: opacity 0.3s;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .slider-dot.active {
+      opacity: 1;
+      background-color: #000;
+    }
+
+    .cursor-banner-slider-{{ section.id }} .dot-thumbnail {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const slides = document.querySelectorAll('.cursor-banner-slider-{{ section.id }} .slider-slide');
+      const dots = document.querySelectorAll('.cursor-banner-slider-{{ section.id }} .slider-dot');
+      let currentSlide = 0;
+
+      if (slides.length > 0) {
+        slides[currentSlide].classList.add('active');
+        dots[currentSlide].classList.add('active');
+      }
+
+      // Function to navigate to a specific slide
+      function navigateToSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.style.opacity = (i === index) ? '1' : '0';
+        });
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[index].classList.add('active');
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+        currentSlide = index;
+      }
+
+      // On hover up/down functionality (mouse scroll)
+      window.addEventListener('wheel', function(e) {
+        if (e.deltaY < 0) {
+          currentSlide = (currentSlide > 0) ? currentSlide - 1 : slides.length - 1;
+        } else {
+          currentSlide = (currentSlide < slides.length - 1) ? currentSlide + 1 : 0;
+        }
+        navigateToSlide(currentSlide);
+      });
+
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => navigateToSlide(index));
+      });
+
+      slides.forEach(slide => {
+        slide.addEventListener('click', () => {
+          const url = slide.getAttribute('data-url');
+          if (url) window.location.href = url;
+        });
+      });
+    });
+  </script>
+</section>
+
+{% schema %}
+{
+  "name": "Cursor Banner Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image",
+          "label": "Slide Image"
+        },
+        {
+          "type": "url",
+          "id": "slide_link",
+          "label": "Slide Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_thumbnail",
+          "label": "Slide Thumbnail"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Alt Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cursor Banner Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

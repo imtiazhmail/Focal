@@ -1,0 +1,160 @@
+{% schema %}
+{
+  "name": "Product Carousel",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select a Collection"
+    },
+    {
+      "type": "text",
+      "id": "carousel_heading",
+      "label": "Heading",
+      "default": "Our Featured Products"
+    },
+    {
+      "type": "number",
+      "id": "desktop_slides",
+      "label": "Slides to show on Desktop",
+      "default": 4
+    },
+    {
+      "type": "number",
+      "id": "mobile_slides",
+      "label": "Slides to show on Mobile",
+      "default": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Carousel",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="product-carousel-section">
+  <h2 class="carousel-heading">{{ section.settings.carousel_heading }}</h2>
+  <div class="product-carousel-wrapper">
+    <div class="carousel-button prev-button">&#9664;</div>
+    <div class="product-carousel">
+      {% for product in collections[section.settings.collection].products %}
+        <div class="product-item">
+          <a href="{{ product.url }}">
+            <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+          </a>
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.price | money }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="carousel-button next-button">&#9654;</div>
+  </div>
+</div>
+
+<!-- Include Slick Slider CSS & JS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Ensure jQuery is included -->
+
+<style>
+  .product-carousel-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .carousel-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product-carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .product-item {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+  }
+
+  .prev-button {
+    left: 0;
+  }
+
+  .next-button {
+    right: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .product-item {
+      width: 100%;
+    }
+  }
+</style>
+
+<script>
+  $(document).ready(function(){
+    $('.product-carousel').slick({
+      slidesToShow: {{ section.settings.desktop_slides }},
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, // Disable default arrows
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: {{ section.settings.mobile_slides }},
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+    // Custom navigation
+    $('.prev-button').click(function(){
+      $('.product-carousel').slick('slickPrev');
+    });
+
+    $('.next-button').click(function(){
+      $('.product-carousel').slick('slickNext');
+    });
+  });
+</script>
