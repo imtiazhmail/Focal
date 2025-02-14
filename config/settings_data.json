@@ -40,7 +40,7 @@
     "text_font_size": 14,
     "currency_code_enabled": false,
     "stagger_products_apparition": true,
-    "round_color_swatches": false,
+    "round_color_swatches": true,
     "color_swatch_config": "Purple Tattersall: Purple_Tattersall.jpg\nPolos Collar Black: Polos_Collar_Black.jpg\nNavy Diamond :Navy_Diamond.jpg\nLavender and Blue Three Stripe Grid: Lavender_and_Blue_Three_Stripe_Grid.jpg\nCountry Red and Blue Gingham:Country_Red_and_Blue_Gingham.jpg\nCollar Black: Collar_Black.jpg\nBrowned Gray: Browned_Gray.jpg\nBrown with Blue Stripe Grid: Brown_with_Blue_Stripe_Grid.jpg",
     "show_vendor": false,
     "show_secondary_image": true,
