@@ -37,8 +37,8 @@
         "desktop_products_per_row": 5,
         "show_filters": true,
         "show_filter_group_name": false,
-        "show_color_swatch": true,
-        "open_first_filter_group": true,
+        "show_color_swatch": false,
+        "open_first_filter_group": false,
         "filter_position": "drawer",
         "promotion_position": "top",
         "promotion_height": "small"
