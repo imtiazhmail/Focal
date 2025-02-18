@@ -277,3 +277,7 @@ h2.h2-about {
 .mpg-swatch > div:nth-child(3) {
     display: none !important;
 }
+
+.page-header__text-wrapper .text-container .heading .h2 {
+    font-size: clamp(20px, calc(3vw + 1rem), 25px);
+}
