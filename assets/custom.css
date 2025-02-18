@@ -281,3 +281,7 @@ h2.h2-about {
 .page-header .text-container > .heading .h2 {
     font: clamp(20px, calc(3vw + 1rem), 25px);
 }
+
+.mpg-button.mpg-swatch__option{
+  font-size:12px !important;
+}
