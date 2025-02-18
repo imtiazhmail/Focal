@@ -274,7 +274,7 @@ h2.h2-about {
 }
 
 
-.mpg-swatch > div:nth-child(3) {
+.mpg-swatch div:nth-child(3) {
     display: none !important;
 }
 
