@@ -45,7 +45,7 @@
           "settings": {
             "image": "{{ section.settings.product.metafields.custom.size_chart.value }}",
             "image_alignment": "center",
-            "image_width": 500
+            "image_width": 240
           }
         },
         "text_6BdreD": {
