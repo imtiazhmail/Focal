@@ -274,6 +274,7 @@ h2.h2-about {
 }
 
 .product-form .mpg-swatch div:nth-child(3) {
- transform: scale(0) !important;
+  position: relative !important;
+  z-index: -1 !important;
 }
 
