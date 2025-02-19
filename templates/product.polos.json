@@ -36,6 +36,10 @@
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         },
+        "description_Cqh6NX": {
+          "type": "description",
+          "settings": {}
+        },
         "image_ncgPrc": {
           "type": "image",
           "settings": {
@@ -43,10 +47,6 @@
             "image_alignment": "center",
             "image_width": 380
           }
-        },
-        "description_Cqh6NX": {
-          "type": "description",
-          "settings": {}
         },
         "text_6BdreD": {
           "type": "text",
@@ -59,8 +59,8 @@
         "variant_picker_HKBJ4E",
         "quantity_selector_XbHcTA",
         "buy_buttons_QAjL7G",
-        "image_ncgPrc",
         "description_Cqh6NX",
+        "image_ncgPrc",
         "text_6BdreD"
       ],
       "settings": {
