@@ -5197,7 +5197,7 @@ select:focus,
  */
 
 .loader-button__text {
-  color: #fff;
+  /* color: #fff; */
   display: flex;
   align-items: center;
   justify-content: center;
