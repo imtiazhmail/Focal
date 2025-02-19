@@ -1246,7 +1246,8 @@ p a:not(.button),
 .text-container .h6,
 .rte h6 {
   margin: 20px 0 1px;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(22px, calc(3vw + 1rem), 25px);
 }
 
 .text-container .heading--small,
