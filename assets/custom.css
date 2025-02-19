@@ -272,3 +272,10 @@ h2.h2-about {
 .jdgm-rev__icon:before {
   color: #000 !important;
 }
+
+.mpg-swatch div:nth-child(3) {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
