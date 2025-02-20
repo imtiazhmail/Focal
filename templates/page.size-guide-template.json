@@ -70,7 +70,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Size_Chart_website_400_x_400_px_1_1.png",
-            "label": "1",
+            "label": "Polos Size Chart",
             "title": "",
             "content": "",
             "button_text": "",
@@ -81,7 +81,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Size_Chart_website_400_x_400_px.png",
-            "label": "2",
+            "label": "Long Sleeve Size Chart",
             "title": "",
             "content": "",
             "button_text": "",
