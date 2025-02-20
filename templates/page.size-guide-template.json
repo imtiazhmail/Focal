@@ -102,12 +102,92 @@
         "item_background": "rgba(0,0,0,0)",
         "item_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "rich_text_4VUQex": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Talk about your brand",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_xE4qBg": {
+      "type": "faq",
+      "blocks": {
+        "category_BXa6w6": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "question_hTwBfL": {
+          "type": "question",
+          "settings": {
+            "title": "How do I determine my shirt size?",
+            "answer": "<p>Measure your neck, chest, and sleeve length, then compare to our size chart.</p>"
+          }
+        },
+        "question_Eagidq": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return or exchange a shirt if it doesn’t fit?",
+            "answer": "<p>Yes, you can return or exchange shirts within our return policy timeframe.</p>"
+          }
+        },
+        "question_qrfEQF": {
+          "type": "question",
+          "settings": {
+            "title": "What if I have more questions about sizing?",
+            "answer": "<p>For additional sizing questions, contact our customer service at firmenity@gmail.com or call<a href=\"tel:410-788-2323\" title=\"tel:410-788-2323\"> 410-788-2323.</a></p>"
+          }
+        },
+        "category_eDMGQA": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "question_j9CWEM": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_BXa6w6",
+        "question_hTwBfL",
+        "question_Eagidq",
+        "question_qrfEQF",
+        "category_eDMGQA",
+        "question_j9CWEM"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "custom_liquid_aTAFKK",
     "slideshow_yzwBYg",
     "main",
-    "timeline_y93xVK"
+    "timeline_y93xVK",
+    "rich_text_4VUQex",
+    "faq_xE4qBg"
   ]
 }
