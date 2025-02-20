@@ -131,9 +131,18 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const mpgSwatchDivs = document.querySelectorAll('.product-form .mpg-swatch div');
-    if (mpgSwatchDivs.length >= 3) {
-        mpgSwatchDivs[2].style.display = 'none'; // Hides the third div  
-        mpgSwatchDivs[2].style.visibility = 'hidden'; // Also ensure it's not visible  
+  const style = document.createElement('style');
+  style.textContent = `
+    .mpg-swatch div:nth-child(3) {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      height: 0 !important;
+      width: 0 !important;
+      overflow: hidden !important;
+      position: absolute !important;
+      clip: rect(0, 0, 0, 0) !important;
     }
-})
+  `;
+  document.head.appendChild(style);
+});
