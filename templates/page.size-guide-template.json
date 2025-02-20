@@ -137,7 +137,7 @@
           "type": "question",
           "settings": {
             "title": "What if I have more questions about sizing?",
-            "answer": "<p>For additional sizing questions, contact our customer service at firmenity@gmail.com or call<a href=\"tel:410-788-2323\" title=\"tel:410-788-2323\"> 410-788-2323.</a></p>"
+            "answer": "<p>For additional sizing questions, contact our customer service at <a href=\"mailto:firmenity@gmail.com\" title=\"mailto:firmenity@gmail.com\">firmenity@gmail.com</a> or call<a href=\"tel:410-788-2323\" title=\"tel:410-788-2323\"> 410-788-2323.</a></p>"
           }
         }
       },
