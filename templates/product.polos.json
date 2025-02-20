@@ -36,6 +36,14 @@
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         },
+        "image_ncgPrc": {
+          "type": "image",
+          "settings": {
+            "image": "{{ section.settings.product.metafields.custom.size_chart.value }}",
+            "image_alignment": "left",
+            "image_width": 300
+          }
+        },
         "description_Cqh6NX": {
           "type": "description",
           "settings": {}
@@ -51,6 +59,7 @@
         "variant_picker_HKBJ4E",
         "quantity_selector_XbHcTA",
         "buy_buttons_QAjL7G",
+        "image_ncgPrc",
         "description_Cqh6NX",
         "text_6BdreD"
       ],

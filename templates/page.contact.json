@@ -51,7 +51,7 @@
       "type": "newsletter",
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify://shop_images/newletter_1_1.webp",
+        "image": "shopify://shop_images/newsletter_1.webp",
         "subheading": "Subscribe to our newsletter",
         "content": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
         "text_position": "right",
