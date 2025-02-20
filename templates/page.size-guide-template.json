@@ -62,11 +62,52 @@
         "show_title": true,
         "page_width": "medium"
       }
+    },
+    "timeline_y93xVK": {
+      "type": "timeline",
+      "blocks": {
+        "item_PtkADN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Dressy_Polos_Size_Chart.webp",
+            "label": "1",
+            "title": "Polos Size Chart",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_Trqt3n": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Long_Sleeve_Size_Chrt_1024x1024_2aae1332-6111-432c-9314-c84f5806665c.webp",
+            "label": "2",
+            "title": "Long Sleeve Size Chart",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_PtkADN",
+        "item_Trqt3n"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Size Chart",
+        "text_position": "middle",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "custom_liquid_aTAFKK",
     "slideshow_yzwBYg",
-    "main"
+    "main",
+    "timeline_y93xVK"
   ]
 }
