@@ -69,7 +69,7 @@
         "item_PtkADN": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Dressy_Polos_Size_Chart.webp",
+            "image": "shopify://shop_images/Size_Chart_website_400_x_400_px_1_1.png",
             "label": "1",
             "title": "Polos Size Chart",
             "content": "",
@@ -80,7 +80,7 @@
         "item_Trqt3n": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Long_Sleeve_Size_Chrt_1024x1024_2aae1332-6111-432c-9314-c84f5806665c.webp",
+            "image": "shopify://shop_images/Size_Chart_website_400_x_400_px.png",
             "label": "2",
             "title": "Long Sleeve Size Chart",
             "content": "",
