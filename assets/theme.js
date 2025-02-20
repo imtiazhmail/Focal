@@ -6325,7 +6325,9 @@
   })();
 })();
 
-document.querySelectorAll('.mpg-swatch div')[2].style.display = 'none';
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.mpg-swatch div')[2].style.display = 'none';
+  });
 
 /*!
 * focus-trap 6.7.1
