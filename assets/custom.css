@@ -272,3 +272,8 @@ h2.h2-about {
 .jdgm-rev__icon:before {
   color: #000 !important;
 }
+
+
+.product-form .mpg-swatch div:nth-child(3) {
+  display: none !important; /* Use !important again to override */
+}
