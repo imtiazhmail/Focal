@@ -127,7 +127,7 @@
         "category_BXa6w6": {
           "type": "category",
           "settings": {
-            "title": "Shipping"
+            "title": "Size Guide FAQs "
           }
         },
         "question_hTwBfL": {
@@ -150,28 +150,13 @@
             "title": "What if I have more questions about sizing?",
             "answer": "<p>For additional sizing questions, contact our customer service at firmenity@gmail.com or call<a href=\"tel:410-788-2323\" title=\"tel:410-788-2323\"> 410-788-2323.</a></p>"
           }
-        },
-        "category_eDMGQA": {
-          "type": "category",
-          "settings": {
-            "title": "Other"
-          }
-        },
-        "question_j9CWEM": {
-          "type": "question",
-          "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
         }
       },
       "block_order": [
         "category_BXa6w6",
         "question_hTwBfL",
         "question_Eagidq",
-        "question_qrfEQF",
-        "category_eDMGQA",
-        "question_j9CWEM"
+        "question_qrfEQF"
       ],
       "settings": {
         "show_navigation": false,
