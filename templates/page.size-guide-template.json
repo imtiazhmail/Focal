@@ -103,24 +103,6 @@
         "item_text_color": "rgba(0,0,0,0)"
       }
     },
-    "rich_text_4VUQex": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "Talk about your brand",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "faq_xE4qBg": {
       "type": "faq",
       "blocks": {
@@ -144,6 +126,13 @@
             "answer": "<p>Yes, you can return or exchange shirts within our return policy timeframe.</p>"
           }
         },
+        "question_zxjMMD": {
+          "type": "question",
+          "settings": {
+            "title": "Are your shirt sizes standard?",
+            "answer": "<p>Sizes can vary by style. Always refer to the specific size chart for each shirt, polo, or long sleeve.</p>"
+          }
+        },
         "question_qrfEQF": {
           "type": "question",
           "settings": {
@@ -156,6 +145,7 @@
         "category_BXa6w6",
         "question_hTwBfL",
         "question_Eagidq",
+        "question_zxjMMD",
         "question_qrfEQF"
       ],
       "settings": {
@@ -172,7 +162,6 @@
     "slideshow_yzwBYg",
     "main",
     "timeline_y93xVK",
-    "rich_text_4VUQex",
     "faq_xE4qBg"
   ]
 }
