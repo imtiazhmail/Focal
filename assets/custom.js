@@ -130,8 +130,10 @@
  */
 
 
-const mpgSwatchDivs = document.querySelectorAll('.product-form .mpg-swatch div');
-if (mpgSwatchDivs.length >= 3) {
-    mpgSwatchDivs[2].style.display = 'none'; // Hides the third div  
-    mpgSwatchDivs[2].style.visibility = 'hidden'; // Also ensure it's not visible  
-}
+document.addEventListener('DOMContentLoaded', function() {
+    const mpgSwatchDivs = document.querySelectorAll('.product-form .mpg-swatch div');
+    if (mpgSwatchDivs.length >= 3) {
+        mpgSwatchDivs[2].style.display = 'none'; // Hides the third div  
+        mpgSwatchDivs[2].style.visibility = 'hidden'; // Also ensure it's not visible  
+    }
+})
