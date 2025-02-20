@@ -146,3 +146,8 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   document.head.appendChild(style);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const element = document.querySelectorAll('.mpg-swatch div')[2];
+  if (element) element.remove();
+});
