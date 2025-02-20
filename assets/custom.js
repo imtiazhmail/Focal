@@ -128,3 +128,10 @@
  * "photoswipe": v4.1.3. PhotoSwipe is only loaded on demand to power the zoom feature on product page. If the zoom
  * feature is disabled, then this script is never loaded.
  */
+
+
+const mpgSwatchDivs = document.querySelectorAll('.product-form .mpg-swatch div');
+if (mpgSwatchDivs.length >= 3) {
+    mpgSwatchDivs[2].style.display = 'none'; // Hides the third div  
+    mpgSwatchDivs[2].style.visibility = 'hidden'; // Also ensure it's not visible  
+}
