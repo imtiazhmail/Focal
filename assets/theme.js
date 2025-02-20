@@ -6325,6 +6325,8 @@
   })();
 })();
 
+document.querySelectorAll('.mpg-swatch div')[2].style.display = 'none';
+
 /*!
 * focus-trap 6.7.1
 * @license MIT, https://github.com/focus-trap/focus-trap/blob/master/LICENSE
