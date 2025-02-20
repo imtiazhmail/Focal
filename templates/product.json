@@ -40,8 +40,8 @@
           "type": "image",
           "settings": {
             "image": "{{ section.settings.product.metafields.custom.size_chart.value }}",
-            "image_alignment": "left",
-            "image_width": 500
+            "image_alignment": "center",
+            "image_width": 400
           }
         },
         "description_iqCQYX": {
