@@ -109,7 +109,7 @@
         "category_BXa6w6": {
           "type": "category",
           "settings": {
-            "title": "Size Guide FAQs "
+            "title": "FAQ's"
           }
         },
         "question_hTwBfL": {
@@ -150,7 +150,7 @@
       ],
       "settings": {
         "show_navigation": false,
-        "title": "FAQ",
+        "title": "Sizing FAQs",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
