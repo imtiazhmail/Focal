@@ -59,7 +59,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "Polos",
-            "images_position": "right",
+            "images_position": "left",
             "image_1": "shopify://shop_images/2_625c473e-059b-4165-b054-99b0adb5d767.png",
             "image_1_heading": "",
             "image_1_text": "",
