@@ -205,7 +205,7 @@
         "mobile_logo_max_width": 80,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "",
-        "header_layout": "logo_left_navigation_inline",
+        "header_layout": "logo_left_navigation_center",
         "show_icons": true,
         "reduce_desktop_padding": false,
         "show_locale_selector": true,
