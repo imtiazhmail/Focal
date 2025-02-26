@@ -1,1 +1,223 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"3fdeefd5-f550-4085-a03e-3af1deee360c":{"type":"message","settings":{"text":"🛍️ FLASH SALE! Enjoy Upto 20% OFF on All Shirts – Shop Now! 🎉","learn_more_text":"","title":"","content":"","button_text":"","button_link":""}},"message-1":{"type":"message","settings":{"text":"🚚 Enjoy Free Shipping on All Orders Across the Continental US!","learn_more_text":"","title":"","content":"","button_text":"","button_link":""}}},"block_order":["3fdeefd5-f550-4085-a03e-3af1deee360c","message-1"],"settings":{"announcement_bar_position":"non_sticky","announcement_text_size":"normal","autoplay":true,"cycle_speed":3,"background":"#2c2c2c","text_color":"#ffffff","button_background":"rgba(0,0,0,0)","button_text_color":"#ffffff"}},"header":{"type":"header","blocks":{"da20d143-4c29-41d9-a6fa-52fbb1e515c3":{"type":"mega_menu","settings":{"menu_item":"Polos","images_position":"right","image_1":"shopify:\/\/shop_images\/WhatsApp_Image_2025-01-17_at_8.45.46_PM.jpg","image_1_heading":"","image_1_text":"","image_1_link":"shopify:\/\/collections\/semi-spread-collar","image_2":"shopify:\/\/shop_images\/WhatsApp_Image_2025-01-17_at_8.45.46_PM_1.jpg","image_2_heading":"","image_2_text":"","image_2_link":"shopify:\/\/collections\/oxford-spread-collar","image_3_heading":"","image_3_text":"","image_3_link":"","image_4_heading":"","image_4_text":"","image_4_link":"","image_5_heading":"","image_5_text":"","image_5_link":"","image_6_heading":"","image_6_text":"","image_6_link":""}},"mega_menu_BRcBk4":{"type":"mega_menu","settings":{"menu_item":"Long Sleeve Shirts","images_position":"right","image_1":"shopify:\/\/shop_images\/WhatsApp_Image_2025-01-17_at_8.45.45_PM.jpg","image_1_heading":"","image_1_text":"","image_1_link":"shopify:\/\/collections\/long-sleeve-dress-shirts","image_2_heading":"","image_2_text":"","image_2_link":"shopify:\/\/collections\/oxford-spread-collar","image_3_heading":"","image_3_text":"","image_3_link":"","image_4_heading":"","image_4_text":"","image_4_link":"","image_5_heading":"","image_5_text":"","image_5_link":"","image_6_heading":"","image_6_text":"","image_6_link":""}},"mega_menu_4CpqAe":{"type":"mega_menu","disabled":true,"settings":{"menu_item":"Grid Fabric","images_position":"right","image_1_heading":"","image_1_text":"","image_1_link":"","image_2_heading":"","image_2_text":"","image_2_link":"","image_3_heading":"","image_3_text":"","image_3_link":"","image_4_heading":"","image_4_text":"","image_4_link":"","image_5_heading":"","image_5_text":"","image_5_link":"","image_6_heading":"","image_6_text":"","image_6_link":""}},"mega_menu_w69Eiy":{"type":"mega_menu","disabled":true,"settings":{"menu_item":"Plain Fabric","images_position":"right","image_1_heading":"","image_1_text":"","image_1_link":"","image_2_heading":"","image_2_text":"","image_2_link":"","image_3_heading":"","image_3_text":"","image_3_link":"","image_4_heading":"","image_4_text":"","image_4_link":"","image_5_heading":"","image_5_text":"","image_5_link":"","image_6_heading":"","image_6_text":"","image_6_link":""}},"e3ca9d9d-4faa-4a9c-89ad-a6c033f22c4a":{"type":"mega_menu","disabled":true,"settings":{"menu_item":"Men","images_position":"right","image_1_heading":"","image_1_text":"","image_1_link":"","image_2_heading":"","image_2_text":"","image_2_link":"","image_3_heading":"","image_3_text":"","image_3_link":"","image_4_heading":"","image_4_text":"","image_4_link":"","image_5_heading":"","image_5_text":"","image_5_link":"","image_6_heading":"","image_6_text":"","image_6_link":""}}},"block_order":["da20d143-4c29-41d9-a6fa-52fbb1e515c3","mega_menu_BRcBk4","mega_menu_4CpqAe","mega_menu_w69Eiy","e3ca9d9d-4faa-4a9c-89ad-a6c033f22c4a"],"custom_css":[".link--animated:hover:after {transform: scaleX(1) translatex(-50%);}",".link--animated:after {background: #b36740; width: 80%; left: 50%; height: 2px; bottom: 0;}"],"settings":{"enable_sticky_header":true,"logo":"shopify:\/\/shop_images\/new-logo-65ef2be69beb9.webp","logo_max_width":160,"mobile_logo_max_width":80,"navigation_menu":"main-menu","sidebar_navigation_menu":"","header_layout":"logo_left_navigation_inline","show_icons":true,"reduce_desktop_padding":false,"show_locale_selector":true,"show_country_selector":false,"enable_transparent_header":false,"transparent_header_text_color":"#ffffff","search_menu":""}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "3fdeefd5-f550-4085-a03e-3af1deee360c": {
+          "type": "message",
+          "settings": {
+            "text": "🛍️ FLASH SALE! Enjoy Upto 20% OFF on All Shirts – Shop Now! 🎉",
+            "learn_more_text": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "🚚 Enjoy Free Shipping on All Orders Across the Continental US!",
+            "learn_more_text": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3fdeefd5-f550-4085-a03e-3af1deee360c",
+        "message-1"
+      ],
+      "settings": {
+        "announcement_bar_position": "non_sticky",
+        "announcement_text_size": "normal",
+        "autoplay": true,
+        "cycle_speed": 3,
+        "background": "#2c2c2c",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "da20d143-4c29-41d9-a6fa-52fbb1e515c3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Polos",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/2_625c473e-059b-4165-b054-99b0adb5d767.png",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "shopify://collections/semi-spread-collar",
+            "image_2": "shopify://shop_images/4_e16e752e-f7f0-4b0e-9cc5-8bc42180a34e.png",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "shopify://collections/oxford-spread-collar",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_BRcBk4": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Long Sleeve Shirts",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/6.png",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "shopify://collections/long-sleeve-dress-shirts",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "shopify://collections/oxford-spread-collar",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_4CpqAe": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Grid Fabric",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_w69Eiy": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Plain Fabric",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "e3ca9d9d-4faa-4a9c-89ad-a6c033f22c4a": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Men",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "da20d143-4c29-41d9-a6fa-52fbb1e515c3",
+        "mega_menu_BRcBk4",
+        "mega_menu_4CpqAe",
+        "mega_menu_w69Eiy",
+        "e3ca9d9d-4faa-4a9c-89ad-a6c033f22c4a"
+      ],
+      "custom_css": [
+        ".link--animated:hover:after {transform: scaleX(1) translatex(-50%);}",
+        ".link--animated:after {background: #b36740; width: 80%; left: 50%; height: 2px; bottom: 0;}"
+      ],
+      "settings": {
+        "enable_sticky_header": true,
+        "logo": "shopify://shop_images/new-logo-65ef2be69beb9.webp",
+        "logo_max_width": 160,
+        "mobile_logo_max_width": 80,
+        "navigation_menu": "main-menu",
+        "sidebar_navigation_menu": "",
+        "header_layout": "logo_left_navigation_inline",
+        "show_icons": true,
+        "reduce_desktop_padding": false,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "enable_transparent_header": false,
+        "transparent_header_text_color": "#ffffff",
+        "search_menu": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
