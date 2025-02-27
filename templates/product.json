@@ -25,6 +25,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "seo_variants_variants_k7TRTN": {
+          "type": "shopify://apps/seo-variants/blocks/variants/1a12d8ea-3d28-4abf-b7a1-d161ffe1dc17",
+          "settings": {}
+        },
         "buy_buttons_QAjL7G": {
           "type": "buy_buttons",
           "settings": {
@@ -58,6 +62,7 @@
       "block_order": [
         "variant_picker_HKBJ4E",
         "quantity_selector_XbHcTA",
+        "seo_variants_variants_k7TRTN",
         "buy_buttons_QAjL7G",
         "image_bFinrP",
         "description_iqCQYX",
