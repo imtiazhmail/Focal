@@ -1,1 +1,455 @@
-{"sections":{"video_qgrrrm":{"type":"video","custom_css":[],"settings":{"desktop_video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/51409322b17945e2a4029500adf17c2e.mp4","tab_video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/51409322b17945e2a4029500adf17c2e.mp4","mobile_video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1710407a187b447d80a8dd20eb24896e.mp4","video_link_url":"shopify:\/\/collections\/polos"}},"featured_collections_a44AhM":{"type":"featured-collections","blocks":{"collection_fkQEf3":{"type":"collection","settings":{"collection":"best-seller","label":"","button_text":"","button_url":""}}},"block_order":["collection_fkQEf3"],"custom_css":["h3 {font-size: 20px;}","@media (min-width: 800px) {h3 {font-size: 35px; }}"],"settings":{"subheading":"","title":"Shop The Trends","content":"","products_count":12,"products_per_row":5,"stack_products":false,"show_cta":false,"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"collection_carousel_slider_9yKQGF":{"type":"collection-carousel-slider","disabled":true,"settings":{"items_mt":52,"collection":"best-seller","product_list":[],"stack_products":false,"show_bar":false,"top_bar":false,"product_show":8,"product_per_desktop":4,"product_per_mobile":"1.3","image_radius":12,"image_ration":"none","use_custom_height":false,"image_height_desktop":300,"image_height_mobile":200,"show_second":true,"use_shadow":false,"use_radius":false,"card_padding_horizontal":4,"card_padding_vertical":32,"card_title_custom":true,"card_title_font":"lato_n4","card_title_size":18,"card_title_letter":0,"card_title_height":100,"heading":"Best Seller","heading_custom":true,"heading_font":"lato_n4","heading_size":40,"heading_letter":1.7,"heading_height":100,"heading_align":"center","sub_heading":"","sub_heading_custom":true,"sub_heading_font":"lato_n4","sub_heading_size":40,"sub_heading_letter":0,"sub_heading_height":100,"sub_heading_align":"center","invert_content":false,"link":"View all","link_url":"shopify:\/\/collections\/best-seller","link_custom":true,"link_font":"lato_n4","link_size":18,"link_letter":1,"link_height":100,"link_position":false,"link_mobile":true,"card_price_custom":true,"card_price_font":"assistant_n4","card_price_size":18,"card_price_letter":0,"card_price_height":100,"card_price_mt":12,"arrow_size":50,"arrow_size_mobile":40,"arrow_hide_mobile":false,"link_color":"#000000","link_hover_color":"#000000","link_arrow_color":"#000000","link_background_color":"#e6e6e6","link_background_hover_color":"#000000","card_content_bg_color":"#ffffff","card_title_color":"#000000","card_price_color":"#b36740","arrow_color":"#000000","arrow_hover_color":"#000000","arrow_bg_color":"#f2f2f2","arrow_bg_hover_color":"#f2f2f2","arrow_border_color":"#c4c4c4","arrow_border_hover_color":"#c4c4c4","progress_color":"#000000","heading_color":"#000000","sub_heading_color":"#000000","background_color":"#ffffff","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":52,"padding_bottom":0,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":130,"border_thickness":0}},"custom_html_73bwXn":{"type":"custom-html","disabled":true,"custom_css":[".text-center {text-align: center;}",".custom-heading-h3,.custom-text {font-family: Lato; text-transform: capitalize;}",".custom-heading-h3 {font-size: 40px; line-height: 60px; margin-bottom: 20px;}",".custom-heading-h3 span {color: #b36740;}",".custom-text {font-size: 16px; font-weight: 400;}","@media (max-width: 767px) {.custom-heading-h3 {font-size: 20px; line-height: 35px; margin-bottom: 0; } .custom-text {font-size: 12px; }}","@media (min-width: 800px) {.container {margin-top: -15px; }}"],"settings":{"subheading":"","title":"","html":"<div class=\"text-center\">\n    <h3 class=\"heading h2 custom-heading-h3\">\n        Keep the stylish <span>appearance <\/span><br>with <span>full-sleeve shirts and polos.<\/span>\n    <\/h3>\n\n    <p class=\"custom-text\">\n        Luxury full-sleeve shirts and polos designed to be worn anytime and anywhere.\n    <\/p>\n<\/div>","add_vertical_spacing":true,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"#000000"}},"custom_html_ChyT4c":{"type":"custom-html","custom_css":["h2 {font-size: clamp(20px, 5vw, 35px) !important;}","span {color: #b2935b;}"],"settings":{"subheading":"","title":"","html":"<div style=\"text-align: center\">\n<h2>Keep The Stylish <span>Appearance<\/span> <br>with <span>Full-Sleeve Shirts and Polos<\/span>\n<\/h2>\n<p>Luxury full-sleeve shirts and polos designed to be worn anytime and anywhere.<\/p>\n<br>\n<\/div>","add_vertical_spacing":false,"background_type":"boxed","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"slideshow":{"type":"slideshow","blocks":{"slide-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Polos_Long_Banners.webp","mobile_image":"shopify:\/\/shop_images\/Polos_Mobile_Banner.webp","text_position":"middle_left","subheading":"","title":"","button_1_text":"","button_1_link":"shopify:\/\/collections\/polos","button_2_text":"","button_2_link":"","text_color":"#ffffff","button_background":"#ffb251","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0}},"image_GqCC9L":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Long_Sleeve_Shirts.webp","mobile_image":"shopify:\/\/shop_images\/Long_Sleeve_Mobile_Banner.webp","text_position":"middle_center","subheading":"","title":"","button_1_text":"","button_1_link":"shopify:\/\/collections\/long-sleeve-dress-shirts","button_2_text":"","button_2_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["slide-2","image_GqCC9L"],"custom_css":[],"settings":{"section_height":"auto","transition_type":"sweep","autoplay":true,"cycle_speed":4,"background":"rgba(0,0,0,0)"}},"responsive_banner_YL6i7R":{"type":"responsive-banner","blocks":{"banner_mQjNL7":{"type":"banner","settings":{"image":"shopify:\/\/shop_images\/1_20_sep.png","url":"shopify:\/\/collections\/semi-spread-collar","alt_text":"Semi Spread Collar Collection"}},"banner_gWtfMi":{"type":"banner","settings":{"image":"shopify:\/\/shop_images\/2_20_sep.png","url":"shopify:\/\/collections\/oxford-spread-collar","alt_text":"Oxford Spread Collar Collection"}}},"block_order":["banner_mQjNL7","banner_gWtfMi"],"disabled":true,"custom_css":[".banner-section {margin-top: 20px;}"],"settings":{"heading":"Elevate with Spread Collars","subtitle":"","columns":"2-col"}},"image_with_text_jwAr9t":{"type":"image-with-text","blocks":{"item_gaRwVF":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/1_20_sep.png","tab_label":"","subheading":"","title":"","content":"<h2>Semi Spread Collar<\/h2><p>Discover the perfect blend of sophistication and versatility with our semi-spread collar shirts. Designed to complement both formal and casual looks, these shirts offer a timeless appeal and exceptional comfort for any occasion.<\/p>","button_text":"SHOP NOW","button_link":"shopify:\/\/collections\/semi-spread-collar"}}},"block_order":["item_gaRwVF"],"custom_css":["h2 {font-size: clamp(22px, calc(1.5vw + 1em), 35px); line-height: 1.8;}"],"settings":{"reveal_on_scroll":true,"background_type":"boxed","background_overlap":"image","image_position":"left","text_alignment":"left","cycle_speed":8,"accent_background":"#d8dde2","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff"}},"image_with_text_GUeAA4":{"type":"image-with-text","blocks":{"item_UmJnaU":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/2_20_sep.png","tab_label":"","subheading":"","title":"","content":"<h2><strong>Oxford Spread Collars<\/strong><\/h2><p>Classic and versatile, Oxford spread collar shirts blend style and comfort effortlessly. Perfect for both formal and casual occasions, they are a timeless addition to any wardrobe.<\/p>","button_text":"SHOP NOW","button_link":"shopify:\/\/collections\/oxford-spread-collar"}}},"block_order":["item_UmJnaU"],"custom_css":["h2 {font-size: clamp(22px, calc(1.5vw + 1em), 35px); line-height: 1.8;}"],"settings":{"reveal_on_scroll":true,"background_type":"boxed","background_overlap":"image","image_position":"right","text_alignment":"left","cycle_speed":8,"accent_background":"#b2935b","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff"}},"688fefd0-1a2e-461e-afcc-9ccbee06d40d":{"type":"featured-collections","blocks":{"template--21161863872806__688fefd0-1a2e-461e-afcc-9ccbee06d40d-collection-1":{"type":"collection","settings":{"collection":"oxford-spread-collar","label":"Iconic Oxford Collars","button_text":"","button_url":""}},"83cc1ba7-dfd5-492a-9d04-e7dc30f90297":{"type":"collection","settings":{"collection":"semi-spread-collar","label":"Refined Semi-Spread","button_text":"","button_url":""}}},"block_order":["template--21161863872806__688fefd0-1a2e-461e-afcc-9ccbee06d40d-collection-1","83cc1ba7-dfd5-492a-9d04-e7dc30f90297"],"custom_css":[".heading {font-family: Lato; letter-spacing: 3px; line-height: 40px;}","@media (max-width: 767px) {.heading {letter-spacing: 1px; }}","h3.heading.h2 span {color: #b36740;}","span.tabs-nav__position.is-initialized {background: #b36740;}",".price-list.price-list--centered span.price {font-weight: 600; color: #b36740;}"],"settings":{"subheading":"","title":"Premium Collar Selection","content":"","products_count":10,"products_per_row":4,"stack_products":false,"show_cta":false,"background":"#f8f8f8","text_color":"#000000","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"text_with_icons_4DnxV7":{"type":"text-with-icons","blocks":{"item_dP8RWk":{"type":"item","settings":{"icon":"picto-lock","custom_icon_width":70,"title":"Secure Transactions","content":"<p>Transactions are handled with bank-grade security.<\/p>"}},"item_edKCgX":{"type":"item","settings":{"icon":"picto-warranty","custom_icon_width":50,"title":"Satisfaction Guaranteed","content":"<p>Free and simple no hassle returns.<\/p>"}},"item_KzYDtf":{"type":"item","settings":{"icon":"picto-fast-delivery","custom_icon_width":50,"title":"FAST SHIPPING","content":"<p>Polos ship within 1 business day.<\/p>"}}},"block_order":["item_dP8RWk","item_edKCgX","item_KzYDtf"],"custom_css":[".icon {width: 60px; height: 60px;}","p {color: #000000;}","p.heading--small {color: #000000; font-family: lato; font-weight: 900; font-size: 17px;}","a {font-size: 11px; font-weight: 400; letter-spacing: 1.44px; background: transparent; border: solid 1px #f5f5f5; border-radius: 2px; text-decoration: none; padding: 10px 20px;}","a:hover {background: #f5f5f5; color: #000000;}"],"settings":{"background":"#b2935b","text_color":"#000000"}}},"order":["video_qgrrrm","featured_collections_a44AhM","collection_carousel_slider_9yKQGF","custom_html_73bwXn","custom_html_ChyT4c","slideshow","responsive_banner_YL6i7R","image_with_text_jwAr9t","image_with_text_GUeAA4","688fefd0-1a2e-461e-afcc-9ccbee06d40d","text_with_icons_4DnxV7"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_qgrrrm": {
+      "type": "video",
+      "custom_css": [],
+      "settings": {
+        "desktop_video_url": "https://cdn.shopify.com/videos/c/o/v/51409322b17945e2a4029500adf17c2e.mp4",
+        "tab_video_url": "https://cdn.shopify.com/videos/c/o/v/51409322b17945e2a4029500adf17c2e.mp4",
+        "mobile_video_url": "https://cdn.shopify.com/videos/c/o/v/1710407a187b447d80a8dd20eb24896e.mp4",
+        "video_link_url": "shopify://collections/polos"
+      }
+    },
+    "featured_collections_a44AhM": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_fkQEf3": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-seller",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_fkQEf3"
+      ],
+      "custom_css": [
+        "h3 {font-size: 20px;}",
+        "@media (min-width: 800px) {h3 {font-size: 35px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop The Trends",
+        "content": "",
+        "products_count": 12,
+        "products_per_row": 5,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_carousel_slider_9yKQGF": {
+      "type": "collection-carousel-slider",
+      "disabled": true,
+      "settings": {
+        "items_mt": 52,
+        "collection": "best-seller",
+        "product_list": [],
+        "stack_products": false,
+        "show_bar": false,
+        "top_bar": false,
+        "product_show": 8,
+        "product_per_desktop": 4,
+        "product_per_mobile": "1.3",
+        "image_radius": 12,
+        "image_ration": "none",
+        "use_custom_height": false,
+        "image_height_desktop": 300,
+        "image_height_mobile": 200,
+        "show_second": true,
+        "use_shadow": false,
+        "use_radius": false,
+        "card_padding_horizontal": 4,
+        "card_padding_vertical": 32,
+        "card_title_custom": true,
+        "card_title_font": "lato_n4",
+        "card_title_size": 18,
+        "card_title_letter": 0,
+        "card_title_height": 100,
+        "heading": "Best Seller",
+        "heading_custom": true,
+        "heading_font": "lato_n4",
+        "heading_size": 40,
+        "heading_letter": 1.7,
+        "heading_height": 100,
+        "heading_align": "center",
+        "sub_heading": "",
+        "sub_heading_custom": true,
+        "sub_heading_font": "lato_n4",
+        "sub_heading_size": 40,
+        "sub_heading_letter": 0,
+        "sub_heading_height": 100,
+        "sub_heading_align": "center",
+        "invert_content": false,
+        "link": "View all",
+        "link_url": "shopify://collections/best-seller",
+        "link_custom": true,
+        "link_font": "lato_n4",
+        "link_size": 18,
+        "link_letter": 1,
+        "link_height": 100,
+        "link_position": false,
+        "link_mobile": true,
+        "card_price_custom": true,
+        "card_price_font": "assistant_n4",
+        "card_price_size": 18,
+        "card_price_letter": 0,
+        "card_price_height": 100,
+        "card_price_mt": 12,
+        "arrow_size": 50,
+        "arrow_size_mobile": 40,
+        "arrow_hide_mobile": false,
+        "link_color": "#000000",
+        "link_hover_color": "#000000",
+        "link_arrow_color": "#000000",
+        "link_background_color": "#e6e6e6",
+        "link_background_hover_color": "#000000",
+        "card_content_bg_color": "#ffffff",
+        "card_title_color": "#000000",
+        "card_price_color": "#b36740",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#f2f2f2",
+        "arrow_bg_hover_color": "#f2f2f2",
+        "arrow_border_color": "#c4c4c4",
+        "arrow_border_hover_color": "#c4c4c4",
+        "progress_color": "#000000",
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0
+      }
+    },
+    "custom_html_73bwXn": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        ".text-center {text-align: center;}",
+        ".custom-heading-h3,.custom-text {font-family: Lato; text-transform: capitalize;}",
+        ".custom-heading-h3 {font-size: 40px; line-height: 60px; margin-bottom: 20px;}",
+        ".custom-heading-h3 span {color: #b36740;}",
+        ".custom-text {font-size: 16px; font-weight: 400;}",
+        "@media (max-width: 767px) {.custom-heading-h3 {font-size: 20px; line-height: 35px; margin-bottom: 0; } .custom-text {font-size: 12px; }}",
+        "@media (min-width: 800px) {.container {margin-top: -15px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"text-center\">\n    <h3 class=\"heading h2 custom-heading-h3\">\n        Keep the stylish <span>appearance </span><br>with <span>full-sleeve shirts and polos.</span>\n    </h3>\n\n    <p class=\"custom-text\">\n        Luxury full-sleeve shirts and polos designed to be worn anytime and anywhere.\n    </p>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#000000"
+      }
+    },
+    "custom_html_ChyT4c": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {font-size: clamp(20px, 5vw, 35px) !important;}",
+        "span {color: #b2935b;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div style=\"text-align: center\">\n<h2>Keep The Stylish <span>Appearance</span> <br>with <span>Full-Sleeve Shirts and Polos</span>\n</h2>\n<p>Luxury full-sleeve shirts and polos designed to be worn anytime and anywhere.</p>\n<br>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Polos_Long_Banners.webp",
+            "mobile_image": "shopify://shop_images/Polos_Mobile_Banner.webp",
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/polos",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffb251",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GqCC9L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Long_Sleeve_Shirts.webp",
+            "mobile_image": "shopify://shop_images/Long_Sleeve_Mobile_Banner.webp",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/long-sleeve-dress-shirts",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide-2",
+        "image_GqCC9L"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "responsive_banner_YL6i7R": {
+      "type": "responsive-banner",
+      "blocks": {
+        "banner_mQjNL7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/1_20_sep.png",
+            "url": "shopify://collections/semi-spread-collar",
+            "alt_text": "Semi Spread Collar Collection"
+          }
+        },
+        "banner_gWtfMi": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/2_20_sep.png",
+            "url": "shopify://collections/oxford-spread-collar",
+            "alt_text": "Oxford Spread Collar Collection"
+          }
+        }
+      },
+      "block_order": [
+        "banner_mQjNL7",
+        "banner_gWtfMi"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner-section {margin-top: 20px;}"
+      ],
+      "settings": {
+        "heading": "Elevate with Spread Collars",
+        "subtitle": "",
+        "columns": "2-col"
+      }
+    },
+    "image_with_text_jwAr9t": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_gaRwVF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_20_sep.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "<h2>Semi Spread Collar</h2><p>Discover the perfect blend of sophistication and versatility with our semi-spread collar shirts. Designed to complement both formal and casual looks, these shirts offer a timeless appeal and exceptional comfort for any occasion.</p>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/semi-spread-collar"
+          }
+        }
+      },
+      "block_order": [
+        "item_gaRwVF"
+      ],
+      "custom_css": [
+        "h2 {font-size: clamp(22px, calc(1.5vw + 1em), 35px); line-height: 1.8;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d8dde2",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_GUeAA4": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_UmJnaU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_20_sep.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "<h2><strong>Oxford Spread Collars</strong></h2><p>Classic and versatile, Oxford spread collar shirts blend style and comfort effortlessly. Perfect for both formal and casual occasions, they are a timeless addition to any wardrobe.</p>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/oxford-spread-collar"
+          }
+        }
+      },
+      "block_order": [
+        "item_UmJnaU"
+      ],
+      "custom_css": [
+        "h2 {font-size: clamp(22px, calc(1.5vw + 1em), 35px); line-height: 1.8;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#b2935b",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "688fefd0-1a2e-461e-afcc-9ccbee06d40d": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21161863872806__688fefd0-1a2e-461e-afcc-9ccbee06d40d-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "oxford-spread-collar",
+            "label": "Iconic Oxford Collars",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "83cc1ba7-dfd5-492a-9d04-e7dc30f90297": {
+          "type": "collection",
+          "settings": {
+            "collection": "semi-spread-collar",
+            "label": "Refined Semi-Spread",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21161863872806__688fefd0-1a2e-461e-afcc-9ccbee06d40d-collection-1",
+        "83cc1ba7-dfd5-492a-9d04-e7dc30f90297"
+      ],
+      "custom_css": [
+        ".heading {font-family: Lato; letter-spacing: 3px; line-height: 40px;}",
+        "@media (max-width: 767px) {.heading {letter-spacing: 1px; }}",
+        "h3.heading.h2 span {color: #b36740;}",
+        "span.tabs-nav__position.is-initialized {background: #b36740;}",
+        ".price-list.price-list--centered span.price {font-weight: 600; color: #b36740;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Premium Collar Selection",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#f8f8f8",
+        "text_color": "#000000",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_with_icons_4DnxV7": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_dP8RWk": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon_width": 70,
+            "title": "Secure Transactions",
+            "content": "<p>Transactions are handled with bank-grade security.</p>"
+          }
+        },
+        "item_edKCgX": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-warranty",
+            "custom_icon_width": 50,
+            "title": "Satisfaction Guaranteed",
+            "content": "<p>Free and simple no hassle returns.</p>"
+          }
+        },
+        "item_KzYDtf": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "custom_icon_width": 50,
+            "title": "FAST SHIPPING",
+            "content": "<p>Polos ship within 1 business day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dP8RWk",
+        "item_edKCgX",
+        "item_KzYDtf"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".icon {width: 60px; height: 60px;}",
+        "p {color: #000000;}",
+        "p.heading--small {color: #000000; font-family: lato; font-weight: 900; font-size: 17px;}",
+        "a {font-size: 11px; font-weight: 400; letter-spacing: 1.44px; background: transparent; border: solid 1px #f5f5f5; border-radius: 2px; text-decoration: none; padding: 10px 20px;}",
+        "a:hover {background: #f5f5f5; color: #000000;}"
+      ],
+      "settings": {
+        "background": "#b2935b",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "video_qgrrrm",
+    "featured_collections_a44AhM",
+    "collection_carousel_slider_9yKQGF",
+    "custom_html_73bwXn",
+    "custom_html_ChyT4c",
+    "slideshow",
+    "responsive_banner_YL6i7R",
+    "image_with_text_jwAr9t",
+    "image_with_text_GUeAA4",
+    "688fefd0-1a2e-461e-afcc-9ccbee06d40d",
+    "text_with_icons_4DnxV7"
+  ]
+}
