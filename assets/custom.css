@@ -281,6 +281,3 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
     display: none !important;
 }
 
-div:has(a[href="https://apps.shopify.com/grouptify-combined-listings"]) {
-    display: none !important;
-}
