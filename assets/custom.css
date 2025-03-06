@@ -281,7 +281,6 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
     display: none !important;
 }
 
-a[href="https://apps.shopify.com/grouptify-combined-listings"], 
-a[href="https://apps.shopify.com/grouptify-combined-listings"] * {
+a[href="https://apps.shopify.com/grouptify-combined-listings"]::parent {
     display: none !important;
 }
