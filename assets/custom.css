@@ -281,10 +281,7 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
     display: none !important;
 }
 
-div:contains("Powered by") {
-    display: none !important;
-}
-a[href="https://apps.shopify.com/grouptify-combined-listings"]::before {
-    content: none !important;
+a[href="https://apps.shopify.com/grouptify-combined-listings"], 
+a[href="https://apps.shopify.com/grouptify-combined-listings"] * {
     display: none !important;
 }
