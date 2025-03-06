@@ -12539,6 +12539,7 @@ input:checked + .popover__choice-label::after,
 .product-form__quantity-label {
   display: flex;
   margin-bottom: 8px;
+  color: #000;
 }
 
 [dir="ltr"] .product-form__option-value {
