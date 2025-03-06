@@ -276,6 +276,7 @@ h2.h2-about {
 .mpg-swatch div:nth-of-type(3) {
   display: none !important;
   color: white !important;
+  margin-bottom: -38px;
 }
 
 a[href="https://apps.shopify.com/grouptify-combined-listings"] {
