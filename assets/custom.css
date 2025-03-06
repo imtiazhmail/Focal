@@ -280,3 +280,9 @@ h2.h2-about {
 a[href="https://apps.shopify.com/grouptify-combined-listings"] {
     display: none !important;
 }
+
+a[href="https://apps.shopify.com/grouptify-combined-listings"],
+a[href="https://apps.shopify.com/grouptify-combined-listings"]::before {
+    display: none !important;
+    visibility: hidden !important;
+}
