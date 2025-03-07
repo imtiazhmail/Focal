@@ -39,9 +39,9 @@
         "image_ncgPrc": {
           "type": "image",
           "settings": {
-            "image": "{{ section.settings.product.metafields.custom.size_chart.value }}",
-            "image_alignment": "left",
-            "image_width": 300
+            "image": "shopify://shop_images/Size_Chart_website_400_x_400_px_1_1.png",
+            "image_alignment": "center",
+            "image_width": 500
           }
         },
         "description_Cqh6NX": {
