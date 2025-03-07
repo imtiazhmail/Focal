@@ -38,8 +38,8 @@
         },
         "image_ncgPrc": {
           "type": "image",
+          "repeater": "{{ section.settings.product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
-            "image": "shopify://shop_images/Size_Chart_website_400_x_400_px_1_1.png",
             "image_alignment": "center",
             "image_width": 500
           }
