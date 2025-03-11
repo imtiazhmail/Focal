@@ -11,32 +11,29 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "page_width": "medium"
       }
     },
+    "custom_liquid_TJFkDk": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "contact_form_Vt79fd": {
       "type": "contact-form",
       "settings": {
-        "title": "Drop Us a Line – We Love Hearing from You!",
-        "content": "",
-        "text_1_heading": "",
-        "text_1_text": "",
-        "text_2_heading": "",
-        "text_2_text": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "contact-form": {
-      "type": "contact-form",
-      "disabled": true,
-      "settings": {
-        "title": "Contact Us",
-        "content": "",
+        "title": "Drop Us a Message",
+        "content": "<p><em>Have a question or need assistance? Send us a message, and we’ll get back to you ASAP.</em></p>",
         "text_1_heading": "",
         "text_1_text": "",
         "text_2_heading": "",
@@ -64,9 +61,9 @@
     }
   },
   "order": [
-    "main",
     "contact_form_Vt79fd",
-    "contact-form",
+    "main",
+    "custom_liquid_TJFkDk",
     "newsletter_YrVXkQ"
   ]
 }
