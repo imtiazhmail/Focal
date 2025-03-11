@@ -11,6 +11,18 @@
   "sections": {
     "contact_form_Vt79fd": {
       "type": "contact-form",
+      "blocks": {
+        "dropdown_CPEYCP": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Reason",
+            "values": "Return, Need Assistant, Complaint, Order Information"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_CPEYCP"
+      ],
       "settings": {
         "title": "Drop Us a Message",
         "content": "<p><em>Have a question or need assistance? Send us a message, and we’ll get back to you ASAP.</em></p>",
@@ -74,8 +86,8 @@
     }
   },
   "order": [
-    "custom_html_FDWTMh",
     "contact_form_Vt79fd",
+    "custom_html_FDWTMh",
     "custom_html_WQdLmp",
     "main",
     "newsletter_YrVXkQ"
