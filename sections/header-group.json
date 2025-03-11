@@ -17,12 +17,12 @@
         "3fdeefd5-f550-4085-a03e-3af1deee360c": {
           "type": "message",
           "settings": {
-            "text": "🛍️ FLASH SALE! Enjoy Upto 20% OFF on All Shirts – Shop Now! 🎉",
+            "text": "🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉",
             "learn_more_text": "",
             "title": "",
             "content": "",
             "button_text": "",
-            "button_link": ""
+            "button_link": "shopify://collections/polos"
           }
         },
         "message-1": {
