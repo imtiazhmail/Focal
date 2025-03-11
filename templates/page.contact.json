@@ -9,18 +9,6 @@
  */
 {
   "sections": {
-    "custom_html_FDWTMh": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<div>\n<h2>Get in Touch! </h2>\n<p style=\"text-align: left; font:15px bold; line-height:2.5\"><label>Contact: </label><a href=\"mailto:firmenity@gmail.com\"> firmenity@gmail.com</a> <br>\n<label>Call us: </label><a href=\"tel:410-788-2323\"> 410-788-2323</a><br> <label style=\"font: 15px bold; line-height:2\"> Hours: </label>\n<span>Monday - Friday, 10:00 am - 4:00 pm EST</span></p>\n <br>\n<p>For inquiries, please use the form. We’ll respond within 1-2 business days. Inquiries from Saturday-Sunday will be answered by Monday/Tuesday, as we are closed on weekends and holidays.\n</p>\n</div>\n<style>\np, h2{\nmax-width: 450px;\nmargin: 0 auto;\ndiv{\nwidth:100%;\nmax-width:450px;\n}\n</style>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "contact_form_Vt79fd": {
       "type": "contact-form",
       "settings": {
@@ -34,6 +22,18 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_FDWTMh": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div>\n<h2>Get in Touch! </h2>\n<p style=\"text-align: left; font:15px bold; line-height:2.5\"><label>Contact: </label><a href=\"mailto:firmenity@gmail.com\"> firmenity@gmail.com</a> <br>\n<label>Call us: </label><a href=\"tel:410-788-2323\"> 410-788-2323</a><br> <label style=\"font: 15px bold; line-height:2\"> Hours: </label>\n<span>Monday - Friday, 10:00 am - 4:00 pm EST</span></p>\n <br>\n<p>For inquiries, please use the form. We’ll respond within 1-2 business days. Inquiries from Saturday-Sunday will be answered by Monday/Tuesday, as we are closed on weekends and holidays.\n</p>\n</div>\n<style>\np, h2{\nmax-width: 450px;\nmargin: 0 auto;\n\ndiv{\nwidth:100%;\nmax-width:450px;\n}\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "main": {
@@ -61,8 +61,8 @@
     }
   },
   "order": [
-    "custom_html_FDWTMh",
     "contact_form_Vt79fd",
+    "custom_html_FDWTMh",
     "main",
     "newsletter_YrVXkQ"
   ]
