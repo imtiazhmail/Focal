@@ -16,7 +16,7 @@
           "type": "dropdown",
           "settings": {
             "title": "Reason",
-            "values": "Return, Need Assistant, Complaint, Order Information"
+            "values": "Order Status, Return/Exchange, Complaint, Product Inquiry, Shipping Issue, Billing Issue, General Question"
           }
         }
       },
