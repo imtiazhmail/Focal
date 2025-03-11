@@ -9,6 +9,18 @@
  */
 {
   "sections": {
+    "custom_html_FDWTMh": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div>\n<h2>Get in Touch! </h2>\n<p style=\"text-align: left; font:15px bold; line-height:2.5\"><label>Contact: </label><a href=\"mailto:firmenity@gmail.com\"> firmenity@gmail.com</a> <br>\n<label>Call us: </label><a href=\"tel:410-788-2323\"> 410-788-2323</a><br> <label style=\"font: 15px bold; line-height:2\"> Hours: </label>\n<span>Monday - Friday, 10:00 am - 4:00 pm EST</span></p>\n <br>\n<p>For inquiries, please use the form. We’ll respond within 1-2 business days. Inquiries from Saturday-Sunday will be answered by Monday/Tuesday, as we are closed on weekends and holidays.\n</p>\n</div>\n<style>\np, h2{\nmax-width: 450px;\nmargin: 0 auto;\ndiv{\nwidth:100%;\nmax-width:450px;\n}\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "contact_form_Vt79fd": {
       "type": "contact-form",
       "settings": {
@@ -32,18 +44,6 @@
         "page_width": "medium"
       }
     },
-    "custom_liquid_TJFkDk": {
-      "type": "custom-liquid",
-      "settings": {
-        "subheading": "",
-        "title": "Get In Touch!",
-        "liquid": "<p style=\"text-align: center\">We'd love to hear from you - please use the form to send us your message or ideas.\n</p>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "newsletter_YrVXkQ": {
       "type": "newsletter",
       "settings": {
@@ -58,25 +58,12 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
-    },
-    "custom_html_FDWTMh": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<h2>Get in Touch! </h2>\n<p style=\"text-align: left; font:15px bold; line-height:2.5\"><label>Contact: </label><a href=\"mailto:firmenity@gmail.com\"> firmenity@gmail.com</a> <br>\n<label>Call us: </label><a href=\"tel:410-788-2323\"> 410-788-2323</a></p>\n<label style=\"font: 15px bold; line-height:2\"> Hours: </label>\n<span>Monday - Friday, 10:00 am - 4:00 pm EST</span><br><br>\n<p>For inquiries, please use the form. We’ll respond within 1-2 business days. Inquiries from Saturday-Sunday will be answered by Monday/Tuesday, as we are closed on weekends and holidays.\n</p>\n\n<style>\np, h2{\nmax-width: 600px;\nmargin: 0 auto;\n</style>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
+    "custom_html_FDWTMh",
     "contact_form_Vt79fd",
     "main",
-    "custom_liquid_TJFkDk",
-    "newsletter_YrVXkQ",
-    "custom_html_FDWTMh"
+    "newsletter_YrVXkQ"
   ]
 }
