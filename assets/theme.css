@@ -3325,7 +3325,7 @@ p + .button-group,
  * QUANTITY SELECTOR
  * --------------------------------------------------------------------
  */
- /* quantity-selector height change from 46 to 40px */
+ /* quantity-selector height change from 46 to 35px */
 
 .quantity-selector {
   --quantity-selector-height: 35px;
