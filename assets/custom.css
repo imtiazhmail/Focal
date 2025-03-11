@@ -290,6 +290,6 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
 
 /* Product page variant size button  */
 .mpg-button.mpg-swatch__option{
-  font-size: clamp(10px, calc(3vw + 0.4rem), 12px);
-  padding: 8px 16px;
+  font-size: clamp(10px, calc(3vw + 0.4rem), 12px) !important;
+  padding: 8px 16px !important;
 }
