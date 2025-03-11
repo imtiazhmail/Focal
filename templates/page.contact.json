@@ -41,7 +41,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div>\n<h2>Get in Touch! </h2>\n<p style=\"text-align: center; font:15px bold; line-height:2.5\"><label>Contact: </label><a href=\"mailto:firmenity@gmail.com\"> firmenity@gmail.com</a> <br>\n<label>Call us: </label><a href=\"tel:410-788-2323\"> 410-788-2323</a><br> <label style=\"font: 15px bold; line-height:2\"> Hours: </label>\n<span>Monday - Friday, 10:00 am - 4:00 pm EST</span></p>\n <br>\n</div>\n<style>\np, h2{\ntext-align: center; \nmax-width: 450px;\nmargin: 0 auto;\n</style>",
+        "html": "<div>\n<h2>Get in Touch! </h2>\n<p style=\"text-align: center; font:15px bold; line-height:2.5\"><label>Contact: </label><a href=\"mailto:firmenity@gmail.com\"> firmenity@gmail.com</a> <br>\n<label>Call us: </label><a href=\"tel:410-788-2323\"> 410-788-2323</a><br> <label> Hours: </label>\n<span>Monday - Friday, 10:00 am - 4:00 pm EST</span></p>\n <br>\n</div>\n<style>\np, h2{\ntext-align: center; \nmax-width: 450px;\nmargin: 0 auto;\n}\nlabel{\nfont-size: 15px;\nfont-weight: bold;\n}\n</style>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
