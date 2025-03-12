@@ -13,7 +13,9 @@
   "sections": {
     "custom_html_hDCnqH": {
       "type": "custom-html",
-      "custom_css": [],
+      "custom_css": [
+        ".container{padding-left:0; padding-right:0;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
