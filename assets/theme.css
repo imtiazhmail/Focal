@@ -9724,6 +9724,7 @@ input:checked + .popover__choice-label::after,
 
 .header__logo-image {
   transition: opacity 0.2s ease-in-out;
+  margin-top:-10px;
 }
 
 [dir="ltr"] .header__logo-image--transparent {
