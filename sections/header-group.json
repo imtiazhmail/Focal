@@ -13,7 +13,6 @@
   "sections": {
     "custom_html_hDCnqH": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".container {padding-left: 0; padding-right: 0;}"
       ],
@@ -29,13 +28,14 @@
     },
     "custom_html_EzbVGF": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".container {padding-left: 0; padding-right: 0;}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div class=\"topbar\">\n    <a href=\"#flash-sale\" class=\"topbar-item\">🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉</a>\n    <a href=\"#free-shipping\" class=\"topbar-item\">🚚 Enjoy Free Shipping on All Orders Across the Continental US!</a>\n</div>\n\n<style>\n    .topbar {\n        display: flex;\n        justify-content: space-between;\n        background-color: #f8c471; /* Light orange background */\n        color: #fff; /* White text color */\n        padding: 10px 20px; /* Padding for the top bar */\n        font-size: 16px; /* Font size */\n        font-family: Arial, sans-serif; /* Font family */\n    }\n\n    .topbar-item {\n        text-decoration: none; /* Remove underline from links */\n        color: #fff; /* White text color */\n        transition: color 0.3s; /* Smooth color transition */\n    }\n\n    .topbar-item:hover {\n        color: #d35400; /* Darker orange on hover */\n    }\n</style>",
+        "html": "<style>\n        body {\n            margin: 0;\n            font-family: Arial, sans-serif;\n        }\n\n        .topbar {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            background-color: #ff6f61; /* Vibrant coral background */\n            color: #ffffff; /* White text color */\n            padding: 10px 20px; /* Padding for the top bar */\n            font-size: 16px; /* Font size */\n            position: relative; /* For positioning */\n            z-index: 1000; /* Ensure it stays on top */\n        }\n\n        .topbar-item {\n            text-decoration: none; /* Remove underline from links */\n            color: #ffffff; /* White text color */\n            margin: 0 15px; /* Space between items */\n            transition: color 0.3s, background-color 0.3s; /* Smooth transition */\n            padding: 5px 10px; /* Padding for clickable area */\n            border-radius: 5px; /* Rounded corners */\n        }\n\n        .topbar-item:hover {\n            background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */\n            color: #ffeb3b; /* Yellow text on hover */\n        }\n\n        .topbar-item:first-child {\n            font-weight: bold; /* Emphasize the flash sale */\n        }\n    </style>\n\n\n\n<div class=\"topbar\">\n    <a href=\"#flash-sale\" class=\"topbar-item\">🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉</a>\n    <a href=\"#free-shipping\" class=\"topbar-item\">🚚 Free Shipping on All Orders Across the Continental US!</a>\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
