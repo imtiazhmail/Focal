@@ -19,7 +19,7 @@
         "bg_color": "#000000",
         "text_color": "#ffffff",
         "font_size": 14,
-        "font_weight": 500,
+        "font_weight": 600,
         "letter_spacing": 0.5,
         "switch_interval": 5
       }
