@@ -1,0 +1,67 @@
+<div class="custom-topbar" style="background: {{ section.settings.bg_color }}; padding: 12px 0; text-align: center; overflow: hidden; white-space: nowrap; position: relative; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+    <div class="custom-promo" id="customPromoText">
+        <a href="/collections/polos" id="customPromoLink" style="color: {{ section.settings.text_color }}; font-size: {{ section.settings.font_size }}px; font-weight: {{ section.settings.font_weight }}; letter-spacing: {{ section.settings.letter_spacing }}px;">
+            {{ section.settings.promo_text_1 }}
+        </a>
+    </div>
+</div>
+
+<style>
+    .custom-promo {
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    @media (max-width: 600px) {
+        #customPromoLink {
+            font-size: 12px !important;
+            font-weight: normal !important;
+            letter-spacing: 0 !important;
+        }
+    }
+</style>
+
+<script>
+    const customPromos = [
+        { text: "{{ section.settings.promo_text_1 }}", link: "/collections/polos" },
+        { text: "{{ section.settings.promo_text_2 }}", link: "/pages/shipping-policy" }
+    ];
+
+    let currentCustomPromo = 0;
+    const customPromoText = document.getElementById('customPromoText');
+    const customPromoLink = document.getElementById('customPromoLink');
+
+    function switchCustomPromo() {
+        customPromoText.style.opacity = 0;
+        
+        setTimeout(() => {
+            currentCustomPromo = (currentCustomPromo + 1) % customPromos.length;
+            customPromoLink.innerHTML = customPromos[currentCustomPromo].text;
+            customPromoLink.href = customPromos[currentCustomPromo].link;
+            
+            customPromoText.style.opacity = 1;
+        }, 500);
+    }
+
+    setInterval(switchCustomPromo, {{ section.settings.switch_interval }} * 1000);
+</script>
+
+{% schema %}
+{
+    "name": "Promo Topbar",
+    "settings": [
+        { "type": "text", "id": "promo_text_1", "label": "Promo Text 1", "default": "🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉" },
+        { "type": "text", "id": "promo_text_2", "label": "Promo Text 2", "default": "🚚 Enjoy Free Shipping on All Orders Across the Continental US!" },
+        { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#333" },
+        { "type": "color", "id": "text_color", "label": "Text Color", "default": "#FFD700" },
+        { "type": "range", "id": "font_size", "label": "Font Size (px)", "min": 10, "max": 30, "step": 1, "default": 16 },
+        { "type": "range", "id": "font_weight", "label": "Font Weight", "min": 100, "max": 900, "step": 100, "default": 700 },
+        { "type": "range", "id": "letter_spacing", "label": "Letter Spacing (px)", "min": 0, "max": 5, "step": 0.1, "default": 0.5 },
+        { "type": "range", "id": "switch_interval", "min": 3, "max": 15, "step": 1, "label": "Switch Interval (seconds)", "default": 5 }
+    ],
+    "presets": [
+        { "name": "Promo Topbar", "category": "Announcement" }
+    ]
+}
+{% endschema %}
+
+<!-- Activity: Added responsive adjustments for mobile with 12px font size, removed letter spacing and font weight. 📱 -->
