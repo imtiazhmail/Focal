@@ -14,12 +14,27 @@
     "custom_html_hDCnqH": {
       "type": "custom-html",
       "custom_css": [
-        ".container{padding-left:0; padding-right:0;}"
+        ".container {padding-left: 0; padding-right: 0;}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
         "html": "<div class=\"topbar\">\n        <div class=\"marquee\">\n            <a href=\"/collections/polos\" class=\"promo\">🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉</a>\n            <a href=\"/shipping-policy\" class=\"promo\">🚚 Enjoy Free Shipping on All Orders Across the Continental US!</a>\n        </div>\n    </div>\n\n    <style>\n        .topbar {\n            overflow: hidden;\n            background: #333;\n            padding: 10px 0;\n        }\n        .marquee {\n            display: inline-block;\n            white-space: nowrap;\n            animation: marquee 15s linear infinite;\n        }\n        .promo {\n            text-decoration: none;\n            color: #FFD700;\n            padding: 0 30px;\n            font-size: 16px;\n        }\n        .promo:hover {\n            text-decoration: underline;\n        }\n        @keyframes marquee {\n            0% { transform: translateX(100%); }\n            100% { transform: translateX(-100%); }\n        }\n    </style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_EzbVGF": {
+      "type": "custom-html",
+      "custom_css": [
+        ".container {padding-left: 0; padding-right: 0;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"topbar\">\n        <div class=\"promo\" id=\"promo1\">\n            <a href=\"/collections/polos\">🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉</a>\n        </div>\n        <div class=\"promo\" id=\"promo2\" style=\"display: none;\">\n            <a href=\"/shipping-policy\">🚚 Enjoy Free Shipping on All Orders Across the Continental US!</a>\n        </div>\n    </div>\n\n    <style>\n        .topbar {\n            background: #333;\n            padding: 10px 0;\n            text-align: center;\n        }\n        .promo a {\n            text-decoration: none;\n            color: #FFD700;\n            font-size: 16px;\n        }\n        .promo a:hover {\n            text-decoration: underline;\n        }\n    </style>\n\n    <script>\n        let currentPromo = 1;\n        setInterval(() => {\n            document.getElementById(`promo${currentPromo}`).style.display = 'none';\n            currentPromo = currentPromo === 1 ? 2 : 1;\n            document.getElementById(`promo${currentPromo}`).style.display = 'block';\n        }, 2000); // Switch every 3 seconds\n    </script>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -234,6 +249,7 @@
   },
   "order": [
     "custom_html_hDCnqH",
+    "custom_html_EzbVGF",
     "announcement-bar",
     "header"
   ]
