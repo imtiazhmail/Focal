@@ -11,8 +11,22 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "promo_topbar_ia9NWh": {
+      "type": "promo-topbar",
+      "settings": {
+        "promo_text_1": "🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉",
+        "promo_text_2": "🚚 Enjoy Free Shipping on All Orders Across the Continental US!",
+        "bg_color": "#000000",
+        "text_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": 500,
+        "letter_spacing": 0.5,
+        "switch_interval": 5
+      }
+    },
     "custom_html_hDCnqH": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".container {padding-left: 0; padding-right: 0;}"
       ],
@@ -249,6 +263,7 @@
     }
   },
   "order": [
+    "promo_topbar_ia9NWh",
     "custom_html_hDCnqH",
     "custom_html_EzbVGF",
     "announcement-bar",
