@@ -9705,7 +9705,7 @@ input:checked + .popover__choice-label::after,
   box-shadow: 0 1px rgb(var(--border-color));
 }
 
-.header__logo {
+.header__logo { 
   display: block;
   position: relative;
   margin: 0;
