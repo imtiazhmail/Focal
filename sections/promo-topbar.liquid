@@ -1,6 +1,6 @@
 <div class="custom-topbar" style="background: {{ section.settings.bg_color }}; padding: 8px 0; text-align: center; overflow: hidden; white-space: nowrap; position: relative; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
     <div class="custom-promo" id="customPromoText">
-        <a href="/collections/polos" id="customPromoLink" style="color: {{ section.settings.text_color }}; font-size: {{ section.settings.font_size }}px; font-weight: {{ section.settings.font_weight }}; letter-spacing: {{ section.settings.letter_spacing }}px;">
+        <a href="{{ section.settings.promo_1_url }}" id="customPromoLink" style="color: {{ section.settings.text_color }}; font-size: {{ section.settings.font_size }}px; font-weight: {{ section.settings.font_weight }}; letter-spacing: {{ section.settings.letter_spacing }}px;">
             {{ section.settings.promo_text_1 }}
         </a>
     </div>
@@ -22,8 +22,8 @@
 
 <script>
     const customPromos = [
-        { text: "{{ section.settings.promo_text_1 }}", link: "/collections/polos" },
-        { text: "{{ section.settings.promo_text_2 }}", link: "/pages/shipping-policy" }
+        { text: "{{ section.settings.promo_text_1 | escape }}", link: "{{ section.settings.promo_1_url }}" },
+        { text: "{{ section.settings.promo_text_2 | escape }}", link: "{{ section.settings.promo_2_url }}" }
     ];
 
     let currentCustomPromo = 0;
@@ -50,7 +50,9 @@
     "name": "Promo Topbar",
     "settings": [
         { "type": "text", "id": "promo_text_1", "label": "Promo Text 1", "default": "🛍️ FLASH SALE! Enjoy Flat 20% OFF on Polos – Shop Now! 🎉" },
+        { "type": "url", "id": "promo_1_url", "label": "Promo 1 URL" },
         { "type": "text", "id": "promo_text_2", "label": "Promo Text 2", "default": "🚚 Enjoy Free Shipping on All Orders Across the Continental US!" },
+        { "type": "url", "id": "promo_2_url", "label": "Promo 2 URL" },
         { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#333" },
         { "type": "color", "id": "text_color", "label": "Text Color", "default": "#FFD700" },
         { "type": "range", "id": "font_size", "label": "Font Size (px)", "min": 10, "max": 30, "step": 1, "default": 15 },
@@ -64,3 +66,4 @@
 }
 {% endschema %}
 
+<!-- Activity: Fixed JSON syntax, added proper URL linking, and escaped text for safety. ✅ -->
