@@ -18,7 +18,7 @@
       ],
       "settings": {
         "show_collection_image": false,
-        "show_collection_title": true,
+        "show_collection_title": false,
         "show_collection_description": true,
         "section_height": "auto",
         "text_width": "medium",
