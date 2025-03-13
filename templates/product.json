@@ -14,6 +14,7 @@
       "blocks": {
         "variant_picker_HKBJ4E": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "selector_mode": "block",
@@ -42,6 +43,7 @@
         },
         "image_bFinrP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "{{ section.settings.product.metafields.custom.size_chart.value }}",
             "image_alignment": "center",
