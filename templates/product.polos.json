@@ -25,6 +25,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "bf_size_charts_block_Gdc8wM": {
+          "type": "shopify://apps/bf-size-charts/blocks/block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
+          "settings": {}
+        },
         "buy_buttons_QAjL7G": {
           "type": "buy_buttons",
           "settings": {
@@ -58,6 +62,7 @@
       "block_order": [
         "variant_picker_HKBJ4E",
         "quantity_selector_XbHcTA",
+        "bf_size_charts_block_Gdc8wM",
         "buy_buttons_QAjL7G",
         "image_ncgPrc",
         "description_Cqh6NX",
