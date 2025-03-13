@@ -50,8 +50,15 @@
             "image_width": 400
           }
         },
+        "liquid_XRVwa7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-tabs\">\n    <style>\n        .tab {\n            cursor: pointer;\n            padding: 10px;\n            background: #f9f9f9;\n            border: 1px solid #ccc;\n            border-bottom: none;\n        }\n        .tab.active {\n            background: #e0e0e0;\n        }\n        .tab-content {\n            display: none;\n            padding: 10px;\n            border: 1px solid #ccc;\n        }\n        .tab-content.active {\n            display: block;\n        }\n    </style>\n\n    <!-- Tab Headers -->\n    <div class=\"tab\" onclick=\"showTab(0)\">Description</div>\n    <div class=\"tab\" onclick=\"showTab(1)\">Return Policy</div>\n    <div class=\"tab\" onclick=\"showTab(2)\">Features</div>\n\n    <!-- Tab Content -->\n    <div class=\"tab-content active\">\n        {{ product.description | default: \"No description available.\" }}\n    </div>\n    <div class=\"tab-content\">\n        <p>Returns accepted within 30 days. Must be unused and in original packaging.</p>\n    </div>\n    <div class=\"tab-content\">\n        <ul>\n            <li>High-quality materials</li>\n            <li>Handcrafted design</li>\n            <li>1-year warranty included</li>\n        </ul>\n    </div>\n\n    <!-- Tab Switching Script -->\n    <script>\n        function showTab(index) {\n            var tabs = document.getElementsByClassName(\"tab\");\n            var contents = document.getElementsByClassName(\"tab-content\");\n\n            for (var i = 0; i < tabs.length; i++) {\n                tabs[i].classList.remove(\"active\");\n                contents[i].classList.remove(\"active\");\n            }\n\n            tabs[index].classList.add(\"active\");\n            contents[index].classList.add(\"active\");\n        }\n    </script>\n</div>"
+          }
+        },
         "description_iqCQYX": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "text_6BdreD": {
@@ -67,6 +74,7 @@
         "bf_size_charts_block_fR4DMg",
         "buy_buttons_QAjL7G",
         "image_bFinrP",
+        "liquid_XRVwa7",
         "description_iqCQYX",
         "text_6BdreD"
       ],
