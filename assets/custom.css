@@ -297,3 +297,12 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
 .select{
   font-size: 14px !important;
 }
+
+
+/* BF Size Charts */
+{
+  
+.scr-modal{
+   max-width: 530px !important;
+
+}
