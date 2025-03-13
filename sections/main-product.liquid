@@ -193,7 +193,77 @@
             </p>
           {%- endif -%}
         </product-meta>
-      </div>
+      </div
+
+        <div class="product-collapsible-sections">
+    <style>
+        .collapsible {
+            background-color: #f9f9f9;
+            color: #333;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #e0e0e0;
+        }
+
+        .content {
+            padding: 10px;
+            display: none;
+            overflow: hidden;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+
+    <h2>Product Details</h2>
+
+    <!-- Collapsible Section for Description -->
+    <button class="collapsible">Product Description</button>
+    <div class="content">
+        {{ product.description | default: "No description available." }}
+    </div>
+
+    <!-- Collapsible Section for Return Policy -->
+    <button class="collapsible">Return Policy</button>
+    <div class="content">
+        <p>We accept returns within 30 days of purchase. Items must be unused and in their original packaging.</p>
+    </div>
+
+    <!-- Collapsible Section for Features -->
+    <button class="collapsible">Features</button>
+    <div class="content">
+        <ul>
+            <li>High-quality materials</li>
+            <li>Handcrafted design</li>
+            <li>1-year warranty included</li>
+        </ul>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var coll = document.getElementsByClassName("collapsible");
+            for (var i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    content.style.display = content.style.display === "block" ? "none" : "block";
+                });
+            }
+        });
+    </script>
+</div>
+
+        
     </div>
   {%- endcapture -%}
 
