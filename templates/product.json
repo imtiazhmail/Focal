@@ -25,8 +25,8 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "seo_variants_variants_k7TRTN": {
-          "type": "shopify://apps/seo-variants/blocks/variants/1a12d8ea-3d28-4abf-b7a1-d161ffe1dc17",
+        "bf_size_charts_block_fR4DMg": {
+          "type": "shopify://apps/bf-size-charts/blocks/block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
           "settings": {}
         },
         "buy_buttons_QAjL7G": {
@@ -62,7 +62,7 @@
       "block_order": [
         "variant_picker_HKBJ4E",
         "quantity_selector_XbHcTA",
-        "seo_variants_variants_k7TRTN",
+        "bf_size_charts_block_fR4DMg",
         "buy_buttons_QAjL7G",
         "image_bFinrP",
         "description_iqCQYX",
