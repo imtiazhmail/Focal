@@ -271,6 +271,11 @@
         "type": "shopify://apps/g-combined-listings/blocks/swatch_renderer/b3e63011-8382-4b7f-8929-7fe2b1aec125",
         "disabled": false,
         "settings": {}
+      },
+      "11254466806377166470": {
+        "type": "shopify://apps/bf-size-charts/blocks/embed-block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
