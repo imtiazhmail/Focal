@@ -306,6 +306,7 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
 }
 
 /* mobile menu */
-.mobile-nav li:last-child {
+ul.mobile-nav li:last-child {
    font-size: 13px !important;
 }
+
