@@ -183,7 +183,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".container {background-color: rgba(178, 147, 91, 0.7);}"
+        ".container {background: rgba(255, 204, 77, 0.3); }"
       ],
       "settings": {
         "subheading": "",
