@@ -177,14 +177,14 @@
       "custom_css": [],
       "settings": {
         "include_horizontal_margins": true,
-        "include_vertical_margins": true
+        "include_vertical_margins": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
         ".container {background-color: rgba(178, 147, 91, 0.7);}",
-        ".vertical-breather {padding-top: 25; padding-bottom: 25px;}"
+        ".vertical-breather {padding-top: 25px !important; padding-bottom: 25px !important;}"
       ],
       "settings": {
         "subheading": "",
