@@ -227,6 +227,7 @@
         "e3ca9d9d-4faa-4a9c-89ad-a6c033f22c4a"
       ],
       "custom_css": [
+        ".mega-menu__image{border-radius: 10%;}",
         ".link--animated:hover:after {transform: scaleX(1) translatex(-50%);}",
         ".link--animated:after {background: #b36740; width: 80%; left: 50%; height: 2px; bottom: 0;}"
       ],
