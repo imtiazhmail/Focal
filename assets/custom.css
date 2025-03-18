@@ -304,3 +304,8 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
   width: 100 !important;
   max-width: 540px !important;
 }
+
+/* mobile menu */
+.mobile-nav li:last-child {
+   font-size: 13px;
+}
