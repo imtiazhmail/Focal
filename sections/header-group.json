@@ -92,8 +92,8 @@
           "settings": {
             "menu_item": "Polos",
             "images_position": "left",
-            "image_1_heading": "Semi Spread Collar",
-            "image_1_text": "Save Flat 20%",
+            "image_1_heading": "",
+            "image_1_text": "",
             "image_1_link": "shopify://collections/semi-spread-collar",
             "image_2": "shopify://shop_images/8.png",
             "image_2_heading": "",
