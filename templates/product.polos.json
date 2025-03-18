@@ -184,10 +184,10 @@
       "type": "product-recommendations",
       "settings": {
         "subheading": "",
-        "title": "You Might Also Like",
+        "title": "🔥 Recommended for You",
         "recommendations_count": 4,
-        "background": "#f5f5f5",
-        "text_color": "#b26a4e"
+        "background": "#fffdfd",
+        "text_color": "#34362c"
       }
     }
   },
