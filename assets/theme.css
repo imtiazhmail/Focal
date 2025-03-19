@@ -10223,6 +10223,7 @@ input:checked + .popover__choice-label::after,
 
 [dir="ltr"] .mobile-nav .mobile-nav {
   padding-left: 8px;
+  display: none; /* this is added to hide collection name before image on mobile menu */
 }
 
 [dir="rtl"] .mobile-nav .mobile-nav {
