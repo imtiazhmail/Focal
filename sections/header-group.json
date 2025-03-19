@@ -143,7 +143,7 @@
         "mega_menu_4CpqAe": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Semi Spread",
+            "menu_item": "Semi Spread Collar",
             "images_position": "right",
             "image_1": "shopify://shop_images/8_1.png",
             "image_1_heading": "",
@@ -169,7 +169,7 @@
         "mega_menu_w69Eiy": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Oxford Spread",
+            "menu_item": "Oxford Spread Collar",
             "images_position": "right",
             "image_1": "shopify://shop_images/9_1.png",
             "image_1_heading": "",
