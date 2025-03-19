@@ -308,6 +308,6 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
   display:none;
 }
 /* mobile menu */
-.drawer__content .mobile-nav ul li:last-child a{
+.drawer__content .mobile-nav ul li:last-of-type a
   font-size: 16px !important;
 }
