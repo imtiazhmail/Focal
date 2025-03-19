@@ -311,7 +311,7 @@ a[href="https://apps.shopify.com/grouptify-combined-listings"] {
 .drawer__content < mobile-nav < ul < li a{
   font-size: 18px !important;
 }
-
+/* 
 a.mobile-nav__link.heading.h5:last-child{
    font-size: 13px !important;
-}
+} */
