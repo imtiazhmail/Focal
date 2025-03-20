@@ -238,6 +238,38 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_GCpyzj": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_jWKQjW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_20_sep.png",
+            "tab_label": "Semi Spread Collar",
+            "subheading": "Effortless Comfort",
+            "title": "The Perfect Semi-Spread Collar for Every Occasion",
+            "content": "<p>Designed for a refined look, our Semi-Spread Collar strikes the perfect balance between elegance and versatility. Whether layered under a blazer or worn solo, it ensures all-day comfort with a sharp, structured fit.</p>",
+            "button_text": "Explore Now",
+            "button_link": "shopify://collections/semi-spread-collar"
+          }
+        }
+      },
+      "block_order": [
+        "item_jWKQjW"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 4,
+        "accent_background": "#f5f5f5",
+        "text_color": "#2e2e2e",
+        "button_background": "#34362c",
+        "button_text_color": "#f5f5f5"
+      }
+    },
     "image_with_text_jwAr9t": {
       "type": "image-with-text",
       "blocks": {
@@ -257,6 +289,7 @@
       "block_order": [
         "item_gaRwVF"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: clamp(22px, calc(1.5vw + 1em), 35px); line-height: 1.8;}"
       ],
@@ -292,6 +325,7 @@
       "block_order": [
         "item_UmJnaU"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: clamp(22px, calc(1.5vw + 1em), 35px); line-height: 1.8;}"
       ],
@@ -444,6 +478,7 @@
     "custom_html_73bwXn",
     "custom_html_ChyT4c",
     "slideshow",
+    "image_with_text_GCpyzj",
     "image_with_text_jwAr9t",
     "image_with_text_GUeAA4",
     "688fefd0-1a2e-461e-afcc-9ccbee06d40d",
