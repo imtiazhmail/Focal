@@ -272,7 +272,7 @@
       ],
       "custom_css": [
         "@media (max-width: 996px) {.container {padding-left: 10px; padding-right: 10px; margin-left: auto; margin-right: auto; width: 100%; }}",
-        "span:after{display:none;}"
+        "span:after {display: none;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -281,7 +281,7 @@
         "image_position": "left",
         "text_alignment": "left",
         "cycle_speed": 4,
-        "accent_background": "#f5f5f5",
+        "accent_background": "#ffffff",
         "text_color": "#2e2e2e",
         "button_background": "#34362c",
         "button_text_color": "#f5f5f5"
