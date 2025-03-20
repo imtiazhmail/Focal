@@ -480,7 +480,7 @@
         "item_q44ekh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/polo_labelled_banner.png",
+            "image": "shopify://shop_images/polo_labelled_banner_1400_x_1400_px_JPG.jpg",
             "tab_label": "Patent Pending",
             "subheading": "",
             "title": "",
@@ -502,7 +502,7 @@
         "reveal_on_scroll": true,
         "background_type": "boxed",
         "background_overlap": "image",
-        "image_position": "right",
+        "image_position": "left",
         "text_alignment": "left",
         "cycle_speed": 10,
         "accent_background": "rgba(0,0,0,0)",
