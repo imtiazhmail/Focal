@@ -19,6 +19,22 @@
         "video_link_url": "shopify://collections/polos"
       }
     },
+    "custom_html_ChyT4c": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {font-size: clamp(20px, 5vw, 35px) !important;}",
+        "span {color: #b2935b;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div style=\"text-align: center; margin-top:20px\">\n<h2>Shop <span>The Trends</span> <br> \n</h2>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "featured_collections_a44AhM": {
       "type": "featured-collections",
       "blocks": {
@@ -37,11 +53,13 @@
       ],
       "custom_css": [
         "h3 {font-size: 20px;}",
-        "@media (min-width: 800px) {h3 {font-size: 35px; }}"
+        "@media (min-width: 800px) {h3 {font-size: 35px; }}",
+        ".featured-collections {margin-top: -25px;}",
+        "@media (max-width:996px){.featured-collections {margin-top: -20px;}}"
       ],
       "settings": {
         "subheading": "",
-        "title": "Shop The Trends",
+        "title": "",
         "content": "",
         "products_count": 12,
         "products_per_row": 5,
@@ -167,7 +185,7 @@
         "text_color": "#000000"
       }
     },
-    "custom_html_ChyT4c": {
+    "custom_html_t7bQxx": {
       "type": "custom-html",
       "custom_css": [
         "h2 {font-size: clamp(20px, 5vw, 35px) !important;}",
@@ -496,10 +514,11 @@
   },
   "order": [
     "video_qgrrrm",
+    "custom_html_ChyT4c",
     "featured_collections_a44AhM",
     "collection_carousel_slider_9yKQGF",
     "custom_html_73bwXn",
-    "custom_html_ChyT4c",
+    "custom_html_t7bQxx",
     "slideshow",
     "image_with_text_GCpyzj",
     "image_with_text_jwAr9t",
