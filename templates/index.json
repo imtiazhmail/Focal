@@ -28,7 +28,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div style=\"text-align: center; margin-top:25px\">\n<h2>Discover the  <span>Latest Trends</span> <br> \n</h2>\n</div>",
+        "html": "<div style=\"text-align: center; margin-top:30px\">\n<h2>Discover the  <span>Latest Trends</span> <br> \n</h2>\n</div>",
         "add_vertical_spacing": false,
         "background_type": "boxed",
         "background": "rgba(0,0,0,0)",
