@@ -405,10 +405,10 @@
         "83cc1ba7-dfd5-492a-9d04-e7dc30f90297"
       ],
       "custom_css": [
-        ".heading {font-family: Lato; letter-spacing: 3px; line-height: 40px;}",
-        "@media (max-width: 767px) {.heading {letter-spacing: 1px; }}",
+        ".h2 {font-size: clamp(20px, 5vw, 35px) !important; font-family: \"lato\"; letter-spacing:2px;}",
+        "@media (max-width: 767px) {}",
         "h3.heading.h2 span {color: #b36740;}",
-        "span.tabs-nav__position.is-initialized {background: #b36740;}",
+        "span.tabs-nav__position.is-initialized {background: #000;}",
         ".price-list.price-list--centered span.price {font-weight: 600; color: #b36740;}"
       ],
       "settings": {
