@@ -475,6 +475,11 @@
       "block_order": [
         "item_q44ekh"
       ],
+      "custom_css": [
+        "@media (max-width: 996px) {.container {padding-left: 10px; padding-right: 10px; margin-left: auto; margin-right: auto; width: 100%; }}",
+        "span:after {display: none;}",
+        ".image-with-text__text-wrapper h2 {font-size: clamp(1rem, calc(3vw + 1rem), 2.1rem);}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "boxed",
