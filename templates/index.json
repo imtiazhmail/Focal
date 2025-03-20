@@ -385,7 +385,7 @@
           "type": "collection",
           "settings": {
             "collection": "oxford-spread-collar",
-            "label": "Iconic Oxford Collars",
+            "label": "Oxford Spread Collar",
             "button_text": "",
             "button_url": ""
           }
@@ -394,7 +394,7 @@
           "type": "collection",
           "settings": {
             "collection": "semi-spread-collar",
-            "label": "Refined Semi-Spread",
+            "label": "Semi Spread Collar",
             "button_text": "",
             "button_url": ""
           }
