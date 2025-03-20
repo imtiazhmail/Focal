@@ -249,7 +249,7 @@
             "subheading": "Effortless Comfort",
             "title": "",
             "content": "<h2>The Perfect Semi-Spread Collar for Every Occasion</h2><p>Designed for a refined look, our Semi-Spread Collar strikes the perfect balance between elegance and versatility. Whether layered under a blazer or worn solo, it ensures all-day comfort with a sharp, structured fit.</p><p></p>",
-            "button_text": "Explore Now",
+            "button_text": "Shop Now",
             "button_link": "shopify://collections/semi-spread-collar"
           }
         },
@@ -478,7 +478,7 @@
         "reveal_on_scroll": true,
         "background_type": "boxed",
         "background_overlap": "image",
-        "image_position": "left",
+        "image_position": "right",
         "text_alignment": "left",
         "cycle_speed": 10,
         "accent_background": "rgba(0,0,0,0)",
