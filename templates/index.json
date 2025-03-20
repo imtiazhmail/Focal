@@ -245,17 +245,30 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/1_20_sep.png",
-            "tab_label": "Semi Spread Collar",
+            "tab_label": "Semi Spread",
             "subheading": "Effortless Comfort",
             "title": "The Perfect Semi-Spread Collar for Every Occasion",
             "content": "<p>Designed for a refined look, our Semi-Spread Collar strikes the perfect balance between elegance and versatility. Whether layered under a blazer or worn solo, it ensures all-day comfort with a sharp, structured fit.</p>",
             "button_text": "Explore Now",
             "button_link": "shopify://collections/semi-spread-collar"
           }
+        },
+        "item_WtRM6q": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_20_sep.png",
+            "tab_label": "Oxford Spread",
+            "subheading": "Modern Comfort",
+            "title": "Oxford Spread Collar – A Wardrobe Essential",
+            "content": "<p>Crafted for a polished yet comfortable fit, our Oxford Spread Collar adds a touch of sophistication to any outfit. Perfect for both formal and casual wear, it offers a crisp, structured look with effortless versatility.</p>",
+            "button_text": "Shop Now",
+            "button_link": "shopify://collections/oxford-spread-collar"
+          }
         }
       },
       "block_order": [
-        "item_jWKQjW"
+        "item_jWKQjW",
+        "item_WtRM6q"
       ],
       "settings": {
         "reveal_on_scroll": true,
