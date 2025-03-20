@@ -28,7 +28,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div style=\"text-align: center; margin-top:20px\">\n<h2>Shop <span>The Trends</span> <br> \n</h2>\n</div>",
+        "html": "<div style=\"text-align: center; margin-top:20px\">\n<h2>Discover the  <span>Latest Trends</span> <br> \n</h2>\n</div>",
         "add_vertical_spacing": false,
         "background_type": "boxed",
         "background": "rgba(0,0,0,0)",
@@ -54,7 +54,7 @@
       "custom_css": [
         "h3 {font-size: 20px;}",
         "@media (min-width: 800px) {h3 {font-size: 35px; }}",
-        ".featured-collections {margin-top: -25px; margin-bottom:-10px;}",
+        ".featured-collections {margin-top: -25px; margin-bottom: -10px;}",
         "@media (max-width: 996px) {.featured-collections {margin-top: -20px; }}"
       ],
       "settings": {
