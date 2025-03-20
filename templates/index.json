@@ -238,40 +238,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "responsive_banner_YL6i7R": {
-      "type": "responsive-banner",
-      "blocks": {
-        "banner_mQjNL7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/1_20_sep.png",
-            "url": "shopify://collections/semi-spread-collar",
-            "alt_text": "Semi Spread Collar Collection"
-          }
-        },
-        "banner_gWtfMi": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/2_20_sep.png",
-            "url": "shopify://collections/oxford-spread-collar",
-            "alt_text": "Oxford Spread Collar Collection"
-          }
-        }
-      },
-      "block_order": [
-        "banner_mQjNL7",
-        "banner_gWtfMi"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".banner-section {margin-top: 20px;}"
-      ],
-      "settings": {
-        "heading": "Elevate with Spread Collars",
-        "subtitle": "",
-        "columns": "2-col"
-      }
-    },
     "image_with_text_jwAr9t": {
       "type": "image-with-text",
       "blocks": {
@@ -478,7 +444,6 @@
     "custom_html_73bwXn",
     "custom_html_ChyT4c",
     "slideshow",
-    "responsive_banner_YL6i7R",
     "image_with_text_jwAr9t",
     "image_with_text_GUeAA4",
     "688fefd0-1a2e-461e-afcc-9ccbee06d40d",
