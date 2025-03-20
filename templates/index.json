@@ -437,6 +437,38 @@
         "background": "#b2935b",
         "text_color": "#000000"
       }
+    },
+    "image_with_text_MXKXCW": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_q44ekh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/polo_labelled_banner.png",
+            "tab_label": "Patent Pending",
+            "subheading": "",
+            "title": "",
+            "content": "<h2>The Ultimate Dress Collar Polo</h2><p>Our lightweight polo shirt adds a refined touch to any outfit, perfect for layering or wearing solo with effortless style.</p><p><strong>Now available in over 40 colors and patterns.</strong></p>",
+            "button_text": "Buy Now",
+            "button_link": "shopify://collections/polos"
+          }
+        }
+      },
+      "block_order": [
+        "item_q44ekh"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -450,6 +482,7 @@
     "image_with_text_jwAr9t",
     "image_with_text_GUeAA4",
     "688fefd0-1a2e-461e-afcc-9ccbee06d40d",
-    "text_with_icons_4DnxV7"
+    "text_with_icons_4DnxV7",
+    "image_with_text_MXKXCW"
   ]
 }
