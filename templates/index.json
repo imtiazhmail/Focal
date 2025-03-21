@@ -23,7 +23,8 @@
       "type": "custom-html",
       "custom_css": [
         "h2 {font-size: clamp(20px, 5vw, 35px) !important;}",
-        "span {color: #b2935b;}"
+        "span {color: #b2935b;}",
+        "@media (max-width: 768px) {div{margin-top:30px; }}"
       ],
       "settings": {
         "subheading": "",
