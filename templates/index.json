@@ -24,7 +24,7 @@
       "custom_css": [
         "h2 {font-size: clamp(20px, 5vw, 35px) !important;}",
         "span {color: #b2935b;}",
-        "@media (min-width: 768px) {h2 {margin-top: 40px !important; }}"
+        "@media (min-width: 768px) {h2 {margin-top: 30px !important; }}"
       ],
       "settings": {
         "subheading": "",
