@@ -13312,7 +13312,7 @@ shopify-payment-terms {
 /* IMTIAZ HUSSAIN IS HERE --> In this block of css i create new styles and comment the original one PURPOSE is to Make Quick Button Visible on Product Cards  */
 .product-item__quick-form {
   position: absolute;
-  padding: 5px;
+  padding: 10px;
   bottom: 0;
   width: 100%;
   /* visibility: hidden; */
