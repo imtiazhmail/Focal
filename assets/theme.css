@@ -13314,9 +13314,11 @@ shopify-payment-terms {
   padding: 10px;
   bottom: 0;
   width: 100%;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  /* visibility: hidden; */
+  visibility: visible;
+  /* opacity: 0; */
+  opacity: 1;
+  /* transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out; */
 }
 
 /* This button is only appearing on touch device */
