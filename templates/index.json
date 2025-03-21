@@ -409,7 +409,8 @@
         "@media (max-width: 767px) {}",
         "h3.heading.h2 span {color: #b36740;}",
         "span.tabs-nav__position.is-initialized {background: #000;}",
-        ".price-list.price-list--centered span.price {font-weight: 600; color: #b36740;}"
+        ".price-list.price-list--centered span.price {font-weight: 600; color: #b36740;}",
+        ".button{line-height:2.5;}"
       ],
       "settings": {
         "subheading": "",
