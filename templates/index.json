@@ -55,7 +55,8 @@
         "h3 {font-size: 20px;}",
         "@media (min-width: 800px) {h3 {font-size: 35px; }}",
         ".featured-collections {margin-top: -25px; margin-bottom: -10px;}",
-        "@media (max-width: 996px) {.featured-collections {margin-top: -20px; }}"
+        "@media (max-width: 996px) {.featured-collections {margin-top: -20px; }}",
+        ".button{line-height:2.5;}"
       ],
       "settings": {
         "subheading": "",
